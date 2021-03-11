@@ -1,6 +1,6 @@
 ---
 slug: /
-title: Introduction
+title: 介绍
 ---
 
 [![Build Status](https://github.com/aos-dev/go-storage/workflows/Unittest/badge.svg?branch=master)](https://github.com/aos-dev/go-storage/actions?query=workflow%3AUnittest) [![Go dev](https://godoc.org/github.com/aos-dev/go-storage?status.svg)](https://godoc.org/github.com/aos-dev/go-storage) [![License](https://img.shields.io/badge/license-apache%20v2-blue.svg)](https://github.com/Xuanwo/storage/blob/master/LICENSE) [![Join the chat](https://img.shields.io/badge/chat-online-blue?style=flat&logo=zulip)](https://aos-dev.zulipchat.com/join/c3sqj64sp53tlau7oojg3yll/)
