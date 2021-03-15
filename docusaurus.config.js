@@ -9,12 +9,12 @@ module.exports = {
     projectName: 'site',
     i18n: {
         defaultLocale: 'en-US',
-        locales: ['en-US', 'zh-Hans'],
+        locales: ['en-US', 'zh-CN'],
         localeConfigs: {
             'en-US': {
                 label: 'English',
             },
-            'zh-Hans': {
+            'zh-CN': {
                 label: '简体中文',
             },
         },
