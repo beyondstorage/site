@@ -5,7 +5,7 @@ author_url: https://github.com/Xuanwo
 tags: [updates, weekly-report]
 ---
 
-This the weekly report for [AOS](https://aos.dev), range from 2021-03-15 to 2021-03-21.
+This is the weekly report for [AOS](https://aos.dev), range from 2021-03-15 to 2021-03-21.
 
 ## Application
 
