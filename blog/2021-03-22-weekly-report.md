@@ -33,3 +33,5 @@ We set up following sites:
 
 - AOS's blog: <https://aos.dev/blog>
 - dm's Wiki: <https://github.com/aos-dev/dm/wiki>
+
+We had a meeting of roadmap of 2021 Q2, slides: <https://docs.google.com/presentation/d/1jC30T4S-eFrtIUoj9QStv8UDXq65UJaJmP0R2y-HqXo/>
