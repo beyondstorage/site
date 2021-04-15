@@ -14,6 +14,6 @@ We use `Servicer` to create/delete/get/list storages.
 
 ## Storager
 
-[storager](./storager/) is the interface for storage service.
+[storager](go-storage/operations/storager/index.md) is the interface for storage service.
 
 We use `Storager` to maintain objects.
