@@ -58,12 +58,12 @@ In this release we:
 ## Community
 
 - [PingCAP/dumping](https://github.com/pingcap/dumpling) approved the proposal: [Use aos-dev/go-storage to replace storage.ExternalStorage](https://hackmd.io/@xuanwo/B1-JmNN8O)
-- Meeting Link: [https://tidbcommunity.slack.com/archives/C013HGZMBAR/p1618491677044900](https://tidbcommunity.slack.com/archives/C013HGZMBAR/p1618491677044900)
-- Our Changes
-- More Multipart support
-- SSE support
-- More test coverage
-- Performance
+    - Meeting Link: [https://tidbcommunity.slack.com/archives/C013HGZMBAR/p1618491677044900](https://tidbcommunity.slack.com/archives/C013HGZMBAR/p1618491677044900)
+    - Our Changes
+        - More Multipart support
+        - SSE support
+        - More test coverage
+        - Performance
 - [QingStor/qsftpd](https://github.com/qingstor/qsftpd) will adopt go-storage and transfer to AOS org.
 
 ## New hands
