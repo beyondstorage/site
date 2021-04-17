@@ -69,13 +69,21 @@ This week we Implement default pair and Create API [#4](https://github.com/aos-d
 
 ## Community
 
-- [PingCAP/dumping](https://github.com/pingcap/dumpling) approved the proposal: [Use aos-dev/go-storage to replace storage.ExternalStorage](https://hackmd.io/@xuanwo/B1-JmNN8O)
+- [PingCAP/dumpling](https://github.com/pingcap/dumpling) approved the proposal: [Use aos-dev/go-storage to replace storage.ExternalStorage](https://hackmd.io/@xuanwo/B1-JmNN8O)
     - Meeting Link: [https://tidbcommunity.slack.com/archives/C013HGZMBAR/p1618491677044900](https://tidbcommunity.slack.com/archives/C013HGZMBAR/p1618491677044900)
     - Our Changes
-        - More Multipart support
-        - SSE support
-        - More test coverage
-        - Performance
+        - More Multipart support: 
+          For now, only [go-service-qingstor](https://github.com/aos-dev/go-service-qingstor) 
+          and [go-service-s3](https://github.com/aos-dev/go-service-s3) are multipart upload available, all other service 
+          should support too.
+        - SSE(Server side encryption) support:
+          [Dumpling](https://github.com/pingcap/dumpling) supports the use of s3/gce sse to encrypt backup data, 
+          go-storage should support too. More details at [#51](https://github.com/aos-dev/go-service-s3/issues/51)
+        - More test coverage:
+          Our integration tests have to increase coverage, including the multipart upload logic which are mainly using.
+        - Performance:
+          It is expected that the performance degradation is not more than 10% after the migration is complete, 
+          and we must ensure that our abstraction overhead is in a reasonable limit.
 - [QingStor/qsftpd](https://github.com/qingstor/qsftpd) will adopt go-storage and transfer to AOS org.
 
 ## New hands
