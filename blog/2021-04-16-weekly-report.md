@@ -31,6 +31,10 @@ in which we introduced a breaking change by `UnimplementedStub`.
 
 So we will make sure all service implement it after we realease go-storage v3.5.0 in next weeks. [Roadmap](https://github.com/aos-dev/go-storage/issues/527)
 
+### go-service-azblob
+
+This week we Implement Create API [#10](https://github.com/aos-dev/go-service-azblob/pull/10)
+
 ### go-service-cos
 
 This week we Implement Create API [#13](https://github.com/aos-dev/go-service-cos/pull/13)
@@ -38,6 +42,10 @@ This week we Implement Create API [#13](https://github.com/aos-dev/go-service-co
 ### go-service-dropbox
 
 This week we Implement Create API [#8](https://github.com/aos-dev/go-service-dropbox/pull/8)
+
+### go-service-kodo
+
+This week we Implement Create API [#15](https://github.com/aos-dev/go-service-kodo/pull/15)
 
 ### go-service-oss
 
@@ -54,6 +62,10 @@ This week we released: [v1.1.0](https://github.com/aos-dev/go-service-s3/release
 In this release we:
 - implement `Create` API [#56](https://github.com/aos-dev/go-service-s3/pull/56)
 - implement default pair support for service [#16](https://github.com/aos-dev/go-service-s3/pull/16)
+
+### go-service-uss
+
+This week we Implement default pair and Create API [#4](https://github.com/aos-dev/go-service-uss/pull/4)
 
 ## Community
 
