@@ -57,7 +57,7 @@ In this release we:
 
 ### Working with pingcap/dumpling
 
-[pingcap/dumping](https://github.com/pingcap/dumpling) is a fast, easy-to-use tool written by Go for dumping data from the database(MySQL, TiDB...) to local/cloud(S3, GCP...) in multifarious formats(SQL, CSV...).
+[pingcap/dumpling](https://github.com/pingcap/dumpling) is a fast, easy-to-use tool written by Go for dumping data from the database(MySQL, TiDB...) to local/cloud(S3, GCP...) in multifarious formats(SQL, CSV...).
 
 dumpling's community has approved the proposal: [Use aos-dev/go-storage to replace storage.ExternalStorage](https://hackmd.io/@xuanwo/B1-JmNN8O) at [04/15's meeting](https://tidbcommunity.slack.com/archives/C013HGZMBAR/p1618491677044900)
 
