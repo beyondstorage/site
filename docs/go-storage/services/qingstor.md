@@ -60,7 +60,6 @@ if err != nil {
 
 ##### Supported Operations
 
-- [Create](../operations/storager/create.md)
 - [Read](../operations/storager/read.md)
 - [Stat](../operations/storager/stat.md)
 - [Write](../operations/storager/write.md)
