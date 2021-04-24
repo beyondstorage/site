@@ -2,16 +2,16 @@
 title: 介绍
 ---
 
-[![Build Status](https://github.com/aos-dev/go-storage/workflows/Unittest/badge.svg?branch=master)](https://github.com/aos-dev/go-storage/actions?query=workflow%3AUnittest) [![Go dev](https://godoc.org/github.com/aos-dev/go-storage?status.svg)](https://godoc.org/github.com/aos-dev/go-storage) [![License](https://img.shields.io/badge/license-apache%20v2-blue.svg)](https://github.com/Xuanwo/storage/blob/master/LICENSE) [![go storage dev](https://img.shields.io/matrix/go-storage:aos.dev.svg?server_fqdn=chat.aos.dev&label=%23go-storage%3Aaos.dev&logo=matrix)](https://matrix.to/#/#go-storage:aos.dev)
+[![Build Status](https://github.com/aos-dev/go-storage/workflows/Unittst/badge.svg?branch=master)](https://github.com/aos-dev/go-storage/actions?query=workflow%3AUnittest) [![Go dev](https://godoc.org/github.com/aos-dev/go-storage?status.svg)](https://godoc.org/github.com/aos-dev/go-storage) [![License](https://img.shields.io/badge/license-apache%20v2-blue.svg)](https://github.com/Xuanwo/storage/blob/master/LICENSE) [![go storage dev](https://img.shields.io/matrix/go-storage:aos.dev.svg?server_fqdn=chat.aos.dev&label=%23go-storage%3Aaos.dev&logo=matrix)](https://matrix.to/#/#go-storage:aos.dev)
 
-An application-oriented unified storage layer for Golang.
+面向应用的 Golang 统一存储层。
 
 ![](/docs/go-storage/operations/operations.png)
 
-## Goal
+## 目标
 
-- Production ready
-- High performance
+- 生产就绪
+- 高性能
 - Vendor agnostic
 
 ## Features
