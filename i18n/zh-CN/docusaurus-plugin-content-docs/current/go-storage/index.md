@@ -12,36 +12,36 @@ title: 介绍
 
 - 生产就绪
 - 高性能
-- Vendor agnostic
+- 无供应商锁定
 
-## Features
+## 特性
 
-### Widely services support
+### 广泛的服务支持
 
 - [azblob](services/azblob.md): [Azure Blob storage](https://docs.microsoft.com/en-us/azure/storage/blobs/)
-- [cos](services/cos.md): [Tencent Cloud Object Storage](https://cloud.tencent.com/product/cos)
+- [cos](services/cos.md): [腾讯云对象存储服务](https://cloud.tencent.com/product/cos)
 - [dropbox](services/dropbox.md): [Dropbox](https://www.dropbox.com)
-- [fs](services/fs.md): Local file system
+- [fs](services/fs.md): 本地文件系统
 - [gcs](services/gcs.md): [Google Cloud Storage](https://cloud.google.com/storage/)
-- [kodo](services/kodo.md): [qiniu kodo](https://www.qiniu.com/products/kodo)
-- [oss](services/oss.md): [Aliyun Object Storage](https://www.aliyun.com/product/oss)
-- [qingstor](services/qingstor.md): [QingStor Object Storage](https://www.qingcloud.com/products/qingstor/)
+- [kodo](services/kodo.md): [七牛 kodo 对象存储服务](https://www.qiniu.com/products/kodo)
+- [oss](services/oss.md): [阿里云对象存储服务](https://www.aliyun.com/product/oss)
+- [qingstor](services/qingstor.md): [青云 QingStor 对象存储服务](https://www.qingcloud.com/products/qingstor/)
 - [s3](services/s3.md): [Amazon S3](https://aws.amazon.com/s3/)
-- [uss](services/uss.md): [UPYUN Storage Service](https://www.upyun.com/products/file-storage)
+- [uss](services/uss.md): [又拍云对象存储服务](https://www.upyun.com/products/file-storage)
 
-### Fully operation support
+### 全面的操作支持
 
-- [Servicer](operations/servicer/index.md): Service Level Management.
-- [Storager](operations/storager/index.md): Support all read/write/stat/delete/list/... basic object operations.
-  - [Copier](operations/copy.md): copy an object inside storager
-  - [Mover](operations/move.md):  move an object inside storager
-  - [Reach](operations/reach.md): generate a public accessible url to the object
-  - [Multiparter](operations/multiparter): allow doing multipart uploads
-  - [Appender](operations/appender): allow appending to an object
-  - [Block](operations/blocker): allow combining an object with block ids
-  - [Page](operations/pager): allow doing random writes
+- [Servicer](operations/servicer/index.md): 服务级别的管理
+- [Storager](operations/storager/index.md): 支持读取/写入/获取信息/删除/列取等所有基础对象操作
+  - [Copier](operations/copy.md): 在 Storager 中复制一个对象
+  - [Mover](operations/move.md):  在 Storager 中移动一个对象
+  - [Reach](operations/reach.md): 给对象生成一个可公开访问的 url
+  - [Multiparter](operations/multiparter): 允许进行分段上传
+  - [Appender](operations/appender): 允许追加写入到对象 （Append）
+  - [Block](operations/blocker): 允许使用 Block 来组合一个对象
+  - [Page](operations/pager): 允许随机写入操作
 
-## Quick Start
+## 快速开始
 
 ```go
 package main
@@ -55,7 +55,7 @@ import (
 )
 
 func main() {
-    // Init a service.
+    // 初始化服务
     store, err := fs.NewStorager(pairs.WithWorkDir("/tmp"))
     if err != nil {
         log.Fatalf("service init failed: %v", err)
@@ -81,11 +81,11 @@ func main() {
 }
 ```
 
-## Examples
+## 示例
 
-All examples are maintained in <https://github.com/aos-dev/go-storage-example>.
+所有示例都在 <https://github.com/aos-dev/go-storage-example> 中维护。
 
-## Sponsor
+## 赞助者
 
 <a href="https://vercel.com?utm_source=aos-dev&utm_campaign=oss">
     <img src="/img/vercel_logo_dark.svg" />
