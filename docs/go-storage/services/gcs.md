@@ -39,9 +39,9 @@ project: <google_cloud_project_id>
 
 Google Cloud Storage supports three options for Server-Side Encryption:
 
-* Google-managed encryption keys: This is the default behaviour, no setup or configuration required.
-* Customer-managed encryption keys: You can add a default KMS key to a bucket, then the objects in the bucket are encrypted/decrepted automatically. You can also encrypt an individual object with a Cloud KMS key.
-* Customer-supplied encryption keys
+- Google-managed encryption keys: This is the default behaviour, no setup or configuration required.
+- Customer-managed encryption keys: You can add a default KMS key to a bucket, then the objects in the bucket are encrypted/decrepted automatically. You can also encrypt an individual object with a Cloud KMS key.
+- Customer-supplied encryption keys
 
 Refer to https://cloud.google.com/storage/docs/encryption for more details.
 
@@ -53,7 +53,7 @@ Refer to https://cloud.google.com/storage/docs/encryption for more details.
 
 ##### Supported Operations
 
-* [Write](../operations/storager/write.md)
+- [Write](../operations/storager/write.md)
 
 #### Customer-supplied encryption keys
 
@@ -63,5 +63,5 @@ Refer to https://cloud.google.com/storage/docs/encryption for more details.
 
 ##### Supported Operations
 
-* [Read](../operations/storager/read.md)
-* [Write](../operations/storager/write.md)
+- [Read](../operations/storager/read.md)
+- [Write](../operations/storager/write.md)

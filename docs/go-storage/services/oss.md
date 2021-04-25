@@ -41,8 +41,8 @@ location: <bucket_location>
 
 Aliyun Object Storage supports two options for Server-Side Encryption:
 
-* Server-side encryption by using Key Management Service (SSE-KMS)
-* Server-side encryption by using OSS-managed keys (SSE-OSS)
+- Server-side encryption by using Key Management Service (SSE-KMS)
+- Server-side encryption by using OSS-managed keys (SSE-OSS)
 
 *Note: there exists inconsistency between the two OSS docs. And take care if you want to use the SM4 algorithm.*
 
