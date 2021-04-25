@@ -47,9 +47,9 @@ Refer to https://cloud.google.com/storage/docs/encryption for more details.
 
 #### Customer-managed encryption keys
 
-| Name         | Comments                                                     |
-| ------------ | ------------------------------------------------------------ |
-| kms_key_name | the Cloud KMS key resource. For example, `projects/my-pet-project/locations/us-east1/keyRings/my-key-ring/cryptoKeys/my-key`. |
+| Name           | Comments                                                     |
+| -------------- | ------------------------------------------------------------ |
+| `kms_key_name` | the Cloud KMS key resource. For example, `projects/my-pet-project/locations/us-east1/keyRings/my-key-ring/cryptoKeys/my-key`. |
 
 ##### Supported Operations
 
@@ -57,9 +57,9 @@ Refer to https://cloud.google.com/storage/docs/encryption for more details.
 
 #### Customer-supplied encryption keys
 
-| Name           | Comments                               |
-| -------------- | -------------------------------------- |
-| encryption_key | a 32-byte customer-provided AES256 key |
+| Name             | Comments                               |
+| ---------------- | -------------------------------------- |
+| `encryption_key` | a 32-byte customer-provided AES256 key |
 
 ##### Supported Operations
 

@@ -52,11 +52,11 @@ For global users, refer to https://www.alibabacloud.com/help/doc-detail/31871.ht
 
 #### SSE-KMS
 
-| Name                          | Comments                                                     |
-| ----------------------------- | ------------------------------------------------------------ |
-| server_side_encryption        | specifies the encryption algorithm. It should be `KMS`       |
-| server_side_data_encryption   | specifies the encryption algorithm when server_side_encryption is `KMS`. Can only be set to `SM4`. If this is not set, AES256 algorithm will be used. |
-| server-side-encryption-key-id | specifies the ID of the customer managed CMK used to protect the data |
+| Name                            | Comments                                                     |
+| ------------------------------- | ------------------------------------------------------------ |
+| `server_side_encryption`        | specifies the encryption algorithm. It should be `KMS`       |
+| `server_side_data_encryption`   | specifies the encryption algorithm when server_side_encryption is `KMS`. Can only be set to `SM4`. If this is not set, AES256 algorithm will be used. |
+| `server-side-encryption-key-id` | specifies the ID of the customer managed CMK used to protect the data |
 
 ##### Supported Operations
 
@@ -64,9 +64,9 @@ For global users, refer to https://www.alibabacloud.com/help/doc-detail/31871.ht
 
 #### SSE-OSS
 
-| Name                   | Comments                                                     |
-| ---------------------- | ------------------------------------------------------------ |
-| server_side_encryption | specifies the encryption algorithm. It should be `AES256` or `SM4`. |
+| Name                     | Comments                                                     |
+| ------------------------ | ------------------------------------------------------------ |
+| `server_side_encryption` | specifies the encryption algorithm. It should be `AES256` or `SM4`. |
 
 ##### Supported Operations
 
