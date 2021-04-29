@@ -50,21 +50,21 @@ if err != nil {
 
 This service implements following interfaces:
 
-[Servicer](../operations/servicer/index.md)
+- [Servicer](../operations/servicer/index.md)
 
-[Storager](../operations/storager/index.md)
+- [Storager](../operations/storager/index.md)
 
-[Appender](../operations/appender/index.md)
+- [Appender](../operations/appender/index.md)
 
-[Copier](../operations/copy.md)
+- [Copier](../operations/copy.md)
 
-[Fetcher](../operations/fetch.md)
+- [Fetcher](../operations/fetch.md)
 
-[Mover](../operations/move.md)
+- [Mover](../operations/move.md)
 
-[Multiparter](../operations/multiparter/index.md)
+- [Multiparter](../operations/multiparter/index.md)
 
-[Reacher](../operations/reach.md)
+- [Reacher](../operations/reach.md)
 
 ## Pairs
 

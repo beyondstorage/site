@@ -13,6 +13,6 @@
 
 This service implements following interfaces:
 
-[Storager](../operations/storager/index.md)
+- [Storager](../operations/storager/index.md)
 
-[Appender](../operations/appender/index.md)
+- [Appender](../operations/appender/index.md)

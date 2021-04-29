@@ -28,4 +28,4 @@ endpoint: https:<domain>
 
 This service implements following interfaces:
 
-[Storager](../operations/storager/index.md)
+- [Storager](../operations/storager/index.md)

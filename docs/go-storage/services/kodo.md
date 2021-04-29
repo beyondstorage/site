@@ -37,6 +37,6 @@ endpoint: http:<domain>
 
 This service implements following interfaces:
 
-[Servicer](../operations/servicer/index.md)
+- [Servicer](../operations/servicer/index.md)
 
-[Storager](../operations/storager/index.md)
+- [Storager](../operations/storager/index.md)

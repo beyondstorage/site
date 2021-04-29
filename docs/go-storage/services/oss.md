@@ -39,11 +39,11 @@ location: <bucket_location>
 
 This service implements following interfaces:
 
-[Servicer](../operations/servicer/index.md)
+- [Servicer](../operations/servicer/index.md)
 
-[Storager](../operations/storager/index.md)
+- [Storager](../operations/storager/index.md)
 
-[Appender](../operations/appender/index.md)
+- [Appender](../operations/appender/index.md)
 
 ## Pairs
 
@@ -71,7 +71,7 @@ For global users, refer to https://www.alibabacloud.com/help/doc-detail/31871.ht
 ##### Supported Operations
 
 - [Write](../operations/storager/write.md)
-- [WriteAppend](../operations/appender/write_append.md)
+- [CreateAppend](../operations/appender/create_append.md)
 
 #### SSE-OSS
 
@@ -82,4 +82,4 @@ For global users, refer to https://www.alibabacloud.com/help/doc-detail/31871.ht
 ##### Supported Operations
 
 - [Write](../operations/storager/write.md)
-- [WriteAppend](../operations/appender/write_append.md)
+- [CreateAppend](../operations/appender/create_append.md)

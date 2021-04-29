@@ -38,11 +38,11 @@ work_dir: /<work_dir>
 
 This service implements following interfaces:
 
-[Servicer](../operations/servicer/index.md)
+- [Servicer](../operations/servicer/index.md)
 
-[Storager](../operations/storager/index.md)
+- [Storager](../operations/storager/index.md)
 
-[Appender](../operations/appender/index.md)
+- [Appender](../operations/appender/index.md)
 
 ## Pairs
 
