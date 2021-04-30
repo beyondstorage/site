@@ -10,7 +10,7 @@ title: 开源软件供应链点亮计划 - 暑期2021
 
 - 加入我们的聊天室 [#event-ospp-2021](https://matrix.to/#/#event-ospp-summer-2021:aos.dev) 来与导师和其他学员进行沟通。
 - 在房间里介绍你自己。
-- Choose a project from following and send you CV to the mentors.
+- 从下列项目中选择一个项目，然后将简历发送给对应导师。
 - 访问 [这里](https://github.com/orgs/aos-dev/projects/1?card_filter_query=label%3A%22help+wanted%22) 完成一些 Issue 以对 AOS 了解更多。
 
 访问 [https://summer.iscas.ac.cn/help/timeine/](https://summer.iscas.ac.cn/help/timeline/) 获取完整的时间线。
