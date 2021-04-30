@@ -6,9 +6,14 @@ title: 开源软件供应链点亮计划 - 暑期2021
 
 聊天室： <https://matrix.to/#/#event-ospp-summer-2021:aos.dev>
 
-## 时间表
+## Roadmap
 
-请访问 [https://summer.iscas.ac.cn/help/timeine/](https://summer.iscas.ac.cn/help/timeline/)
+- Join our chatroom [#event-ospp-summer-2021](https://matrix.to/#/#event-ospp-summer-2021:aos.dev) to communicate with mentors and other mentees.
+- Introduce your self in the room.
+- Choose a project from following and send you resume to the mentors.
+- Visit [here](https://github.com/orgs/aos-dev/projects/1?card_filter_query=label%3A%22help+wanted%22) to finish some issues to know more about AOS.
+
+Visit <https://summer.iscas.ac.cn/help/timeline/> to get full timeline.
 
 ## 项目
 
@@ -18,7 +23,7 @@ title: 开源软件供应链点亮计划 - 暑期2021
 
 WebDAV 是 HTTP/1.1 协议的扩展，它允许客户机执行远程 Web 内容操作。 这个项目将会为 WebDAV 实现 go-storage 的 Storager 接口，使得用户能够使用统一的接口来操作 WebDAV 服务器上的数据。
 
-导师: [xuanwo](https://matrix.to/#/@xuanwo:matrix.org)
+Mentor: [xuanwo](https://matrix.to/#/@xuanwo:matrix.org) Issue: <https://github.com/aos-dev/go-service-webdav/issues/1>
 
 ### go-storage 的 FTP 实现
 
