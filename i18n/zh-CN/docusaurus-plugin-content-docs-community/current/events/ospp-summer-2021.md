@@ -4,11 +4,13 @@ title: 开源软件供应链点亮计划 - 暑期2021
 
 ## 交流
 
-聊天室： <https://matrix.to/#/#event-ospp-summer-2021:aos.dev>
+- Matrix: <https://matrix.to/#/#event-ospp-summer-2021:aos.dev>
+- Telegram: [https://t.me/aos_event_ospp_summer_2021](https://t.me/aos_event_ospp_summer_2021)
+- Discord: <https://discord.gg/tMEmXxyeUH>
 
 ## 路线图
 
-- 加入我们的聊天室 [#event-ospp-2021](https://matrix.to/#/#event-ospp-summer-2021:aos.dev) 来与导师和其他学员进行沟通。
+- Join any of our chatroom [#event-ospp-summer-2021](https://matrix.to/#/#event-ospp-summer-2021:aos.dev) to communicate with mentors and other mentees.
 - 在房间里介绍你自己。
 - 从下列项目中选择一个项目，然后将简历发送给对应导师。
 - 访问 [这里](https://github.com/orgs/aos-dev/projects/1?card_filter_query=label%3A%22help+wanted%22) 完成一些 Issue 以对 AOS 了解更多。
