@@ -6,14 +6,14 @@ title: 开源软件供应链点亮计划 - 暑期2021
 
 聊天室： <https://matrix.to/#/#event-ospp-summer-2021:aos.dev>
 
-## Roadmap
+## 路线图
 
-- Join our chatroom [#event-ospp-summer-2021](https://matrix.to/#/#event-ospp-summer-2021:aos.dev) to communicate with mentors and other mentees.
-- Introduce your self in the room.
-- Choose a project from following and send you resume to the mentors.
-- Visit [here](https://github.com/orgs/aos-dev/projects/1?card_filter_query=label%3A%22help+wanted%22) to finish some issues to know more about AOS.
+- 加入我们的聊天室 [#event-ospp-2021](https://matrix.to/#/#event-ospp-summer-2021:aos.dev) 来与导师和其他学员进行沟通。
+- 在房间里介绍你自己。
+- Choose a project from following and send you CV to the mentors.
+- 访问 [这里](https://github.com/orgs/aos-dev/projects/1?card_filter_query=label%3A%22help+wanted%22) 完成一些 Issue 以对 AOS 了解更多。
 
-Visit <https://summer.iscas.ac.cn/help/timeline/> to get full timeline.
+访问 [https://summer.iscas.ac.cn/help/timeine/](https://summer.iscas.ac.cn/help/timeline/) 获取完整的时间线。
 
 ## 项目
 
@@ -23,7 +23,8 @@ Visit <https://summer.iscas.ac.cn/help/timeline/> to get full timeline.
 
 WebDAV 是 HTTP/1.1 协议的扩展，它允许客户机执行远程 Web 内容操作。 这个项目将会为 WebDAV 实现 go-storage 的 Storager 接口，使得用户能够使用统一的接口来操作 WebDAV 服务器上的数据。
 
-Mentor: [xuanwo](https://matrix.to/#/@xuanwo:matrix.org) Issue: <https://github.com/aos-dev/go-service-webdav/issues/1>
+- 导师: [xuanwo](https://matrix.to/#/@xuanwo:matrix.org)
+- Issue: <https://github.com/aos-dev/go-service-webdav/issues/1>
 
 ### go-storage 的 FTP 实现
 
@@ -39,7 +40,7 @@ minio 是一款开源的云原生高性能对象存储服务。 这个项目将�
 
 ### go-storage 的 HDFS 实现
 
-Hadoop 分布式文件系统 (HDFS) 是一款为大规模数据集上的应用开发的分布式文件系统。 这个项目将会为 HDFS 实现 go-storage 的 Storager 接口，使得用户能够通过统一的接口来操作 HDFS 服务上的数据。
+Hadoop 分布式文件系统 (HDFS) 是一款为大规模数据集上的应用开发的分布式文件系统。 个项目将会为 HDFS 实现 go-storage 的 Storager 接口，使得用户能够通过统一的接口来操作 HDFS 服务上的数据。
 
 导师： [xxchan](https://matrix.to/#/@xxchan:matrix.org)
 
