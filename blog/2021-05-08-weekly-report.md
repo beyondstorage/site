@@ -52,7 +52,7 @@ func NewServicer(ps ...types.Pair) (types.Servicer, error) {}
 func NewStorager(ps ...types.Pair) (types.Storager, error) {}
 ```
 
-Users need to handle types by themselves. 
+Users need to handle types by themselves.
 
 So [@Xuanwo] made a
 proposal: [AOS-48: Service Registry](https://github.com/aos-dev/specs/blob/master/rfcs/48-service-registry.md)
@@ -80,8 +80,9 @@ to [Implement AOS-49 Add CreateDir Operation](https://github.com/aos-dev/go-stor
 ### Summer 2021 of Open Source Promotion Plan
 
 So far, over 30 students have shown their interest in our projects. You are welcome to keep an eye on our
-forum: <https://forum.aos.dev/>, where all event-related announcements will be posted. For more details, please refer
-to <https://aos.dev/community/events/ospp-summer-2021>.
+forum: <https://forum.aos.dev/>, where all event-related announcements will be posted.
+
+For more details, please refer to <https://aos.dev/community/events/ospp-summer-2021>.
 
 ---
 
