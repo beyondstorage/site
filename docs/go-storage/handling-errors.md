@@ -115,7 +115,7 @@ Note: Usually using error codes and fine-grained error `struct`s is enough and y
 
 Actually there's some top-level errors wrapping the error codes and fine-grained error types, and they are the actual error types returned in `go-storage`. The figure below shows the structure:
 
-![](https://github.com/aos-dev/specs/blob/master/rfcs/47/new.png)
+![](https://raw.githubusercontent.com/aos-dev/specs/master/rfcs/47/new.png)
 
 - `InitError`: returned by `NewServicer` and `NewStorager`
 - `ServiceError`: returned by the methods of `Servicer`
