@@ -92,7 +92,7 @@ There's a `ErrUnexpected` for uncovered cases.
 
 Error Code|Fine-grained Error Type
 -----|-----
-`ErrCapabilityInsufficient`|`MetadataUnrecognizedError`<br>`PairUnsupportedError`
+`ErrCapabilityInsufficient`|`MetadataUnrecognizedError`<br />`PairUnsupportedError`
 `ErrRestrictionDissatisfied`|`PairRequiredError`
 `ErrServiceNotRegistered`|N/A
 `ErrObjectModeInvalid`|`ObjectModeInvalidError`
