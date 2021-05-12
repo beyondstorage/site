@@ -26,7 +26,11 @@ The error codes can be either globally shared by all services (defined in [go-st
 
 An error code can have a more fine-grained internal classification: it can have 0, 1 or more related error `struct` types, which have fields carrying contextual information. And you can use [errors.As](https://golang.org/pkg/errors/#As) to handle them specially.
 
-> *Note: In `errors.As(originErr, &targetErr)`, the type of `targetErr` should be the `struct` value type instead of pointer type.*
+:::caution 
+
+In `errors.As(originErr, &targetErr)`, the type of `targetErr` should be the `struct` value type instead of pointer type.
+
+:::
 
 ### Example of Using Error Codes and Fine-grained Error Types
 
@@ -103,7 +107,11 @@ Error Code|Fine-grained Error Type
 
 ## Top-level Errors 
 
-> *Note: Usually using error codes and fine-grained error `struct`s is enough and you don't have to know the content in this section.*
+:::info
+
+Note: Usually using error codes and fine-grained error `struct`s is enough and you don't have to know the content in this section.
+
+:::
 
 Actually there's some top-level errors wrapping the error codes and fine-grained error types, and they are the actual error types returned in `go-storage`. The figure below shows the structure:
 
