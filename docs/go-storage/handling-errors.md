@@ -1,5 +1,6 @@
 ---
 title: Handling Errors in go-storage
+sidebar_label: Handling Errors
 ---
 
 

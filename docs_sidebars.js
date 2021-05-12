@@ -7,7 +7,7 @@ module.exports = {
         {
             'go-storage': [
                 'go-storage/index',
-                'go-storage/error-handling',
+                'go-storage/handling-errors',
                 {
                     'Operations': [
                         'go-storage/operations/index',
