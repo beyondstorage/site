@@ -55,7 +55,7 @@ type AosError interface {
 ```
 
 For now, he has finished the implementation for both proposals above in different services, 
-and the [Error Handling Doc](/docs/go-storage/handling-errors.md) is also added for reference. Nicely done!
+and the [Error Handling Doc](/docs/go-storage/handling-errors) is also added for reference. Nicely done!
 
 For more details, please refer
 to [Implement AOS-47: Additional Error Specification](https://github.com/aos-dev/go-storage/issues/558).
@@ -112,7 +112,7 @@ So [@JinnyYi] made a proposal: [AOS-62: WriteMultipart Returns Part](https://git
 which introduced a **break change**: return `*Part` in `WriteMultipart`, which should be held and passed into `CompleteMultipart` as a param.
 
 This proposal's implementation has been finished by [@JinnyYi] in services implemented `Multiparter`, and the [go-integration-tests](https://github.com/aos-dev/go-integration-test) 
-and [multiparter docs](/docs/go-storage/operations/multiparter/index.md) are also updated. Good Job!
+and [multiparter docs](/docs/go-storage/operations/multiparter/index) are also updated. Good Job!
 
 For more details, please refer
 to [Implement AOS-62: WriteMultipart returns Part](https://github.com/aos-dev/go-storage/issues/571).
