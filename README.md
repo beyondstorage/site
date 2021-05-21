@@ -2,10 +2,11 @@
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
-## Install yarn
-- For Debian-derived distros (including Ubuntu and Kali), follow [these](https://yarn.bootcss.com/docs/install/#debian-stable) instructions. 
-
 ## Installation
+
+Please follow [these](https://yarn.bootcss.com/docs/install/#debian-stable) instructions. 
+
+After installation, execute
 
 ```console
 yarn install
