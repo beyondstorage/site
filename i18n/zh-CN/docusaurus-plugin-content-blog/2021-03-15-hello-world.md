@@ -7,6 +7,6 @@ tags:
 description: say hello to world
 ---
 
-This is the blog for Beyond Storage.
+This is the blog for aos-dev.
 
 We will publish more updates here.
