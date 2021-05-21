@@ -3,7 +3,7 @@ slug: /
 title: 介绍
 ---
 
-Here is community related pages for `AOS`.
+Here is community related pages for `Beyond Storage`.
 
 ## Tips
 
@@ -15,7 +15,7 @@ Here is community related pages for `AOS`.
 
 ### Async Discussion
 
-We host our async discussion on forums: <https://forum.aos.dev>.
+We host our async discussion on forums: <https://forum.beyondstorage.io>.
 
 Our formal announcement will be on our forums.
 
@@ -23,7 +23,7 @@ Our formal announcement will be on our forums.
 
 #### Matrix
 
-The main method to communicate with AOS developers.
+The main method to communicate with BeyondStorage developers.
 
 We host our matrix server on `https://chat.aos.dev`.
 
