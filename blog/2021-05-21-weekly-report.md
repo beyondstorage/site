@@ -33,7 +33,7 @@ to users or developers what Application Oriented Storage really means.
 So after a discussion, we renamed our organization into `BeyondStorage`, which indicates our abstraction is
 `beyond the existing storage services`.
 
-[@JinnyYi] is now implementing changing names and links in our former docs, and you are welcome to make your PR to help us,
+[@JinnyYi] is now implementing changing links and module names in our projects, and you are welcome to make your PR to help us,
 please take [GSP-73: Organization Rename](https://github.com/beyondstorage/specs/pull/73/) as a guidance.
 
 [@bokket] is also helping add more information  
