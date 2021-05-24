@@ -11,11 +11,10 @@ title: 开源软件供应链点亮计划 - 暑期2021
 ## 路线图
 
 - 加入我们的聊天室 [#event-ospp-2021](https://matrix.to/#/#event-ospp-summer-2021:aos.dev) 来与导师和其他学员进行沟通。
-- 在房间里介绍你自己。
-- 从下列项目中选择一个项目，然后将简历发送给对应导师。
-- Visit [here](https://github.com/orgs/beyondstorage/projects/1?card_filter_query=label%3A%22help+wanted%22) to finish some issues to know more about Beyond Storage.
+- Choose a project from following.
+- Send your application to [forum](https://forum.beyondstorage.io/) with the [template](https://forum.beyondstorage.io/t/ospp-2021-summer-student-application-template/41)
 
-访问 [https://summer.iscas.ac.cn/help/timeine/](https://summer.iscas.ac.cn/help/timeline/) 获取完整的时间线。
+> 访问 [https://summer.iscas.ac.cn/help/timeine/](https://summer.iscas.ac.cn/help/timeline/) 获取完整的时间线。
 
 ## 项目
 
