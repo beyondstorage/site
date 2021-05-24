@@ -90,4 +90,4 @@ required = ["credential"]
 
 Reference: [S3DisableContentMD5Validation in go-service-s3](https://github.com/beyondstorage/go-service-s3/pull/88#discussion_r631847842)
 
-[go-storage](https://github.com/beyondstorage/go-storage)
+[go-storage]: https://github.com/beyondstorage/go-storage

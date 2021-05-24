@@ -243,6 +243,6 @@ type = "string"
 
 Service infos, name should be `kebab-case`
 
-[specs](https://github.com/beyondstorage/specs)
-[go-storage](https://github.com/beyondstorage/go-storage)
-[definitions](https://github.com/beyondstorage/go-storage/tree/master/cmd/definitions)
+[specs]: https://github.com/beyondstorage/specs
+[go-storage]: https://github.com/beyondstorage/go-storage
+[definitions]: https://github.com/beyondstorage/go-storage/tree/master/cmd/definitions
