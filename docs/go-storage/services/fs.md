@@ -1,6 +1,6 @@
 Local file system
 
-## Repo
+## Project
 
 <https://github.com/beyondstorage/go-service-fs>
 

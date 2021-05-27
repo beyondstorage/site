@@ -1,6 +1,6 @@
 [Azure Blob storage](https://docs.microsoft.com/en-us/azure/storage/blobs/)
 
-## Repo
+## Project
 
 <https://github.com/beyondstorage/go-service-azblob>
 

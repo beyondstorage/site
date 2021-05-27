@@ -1,6 +1,6 @@
 [QingStor Object Storage](https://www.qingcloud.com/products/qingstor/)
 
-## Repo
+## Project
 
 <https://github.com/beyondstorage/go-service-qingstor>
 

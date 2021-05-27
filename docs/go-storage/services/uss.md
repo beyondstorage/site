@@ -1,6 +1,6 @@
 [UPYUN Storage Service](https://www.upyun.com/products/file-storage)
 
-## Repo
+## Project
 
 <https://github.com/beyondstorage/go-service-uss>
 

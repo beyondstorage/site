@@ -1,6 +1,6 @@
 [Aliyun Object Storage](https://www.aliyun.com/product/oss)
 
-## Repo
+## Project
 
 <https://github.com/beyondstorage/go-service-oss>
 

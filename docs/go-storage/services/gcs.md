@@ -1,6 +1,6 @@
 [Google Cloud Storage](https://cloud.google.com/storage/)
 
-## Repo
+## Project
 
 <https://github.com/beyondstorage/go-service-gcs>
 

@@ -1,6 +1,6 @@
 [qiniu kodo](https://www.qiniu.com/products/kodo)
 
-## Repo
+## Project
 
 <https://github.com/beyondstorage/go-service-kodo>
 

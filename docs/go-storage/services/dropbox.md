@@ -1,6 +1,6 @@
 [Dropbox](https://www.dropbox.com)
 
-## Repo
+## Project
 
 <https://github.com/beyondstorage/go-service-dropbox>
 

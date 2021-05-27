@@ -1,6 +1,6 @@
 [Tencent Cloud Object Storage](https://cloud.tencent.com/product/cos)
 
-## Repo
+## Project
 
 <https://github.com/beyondstorage/go-service-cos>
 
