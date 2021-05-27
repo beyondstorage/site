@@ -26,6 +26,10 @@ WebDAV 是 HTTP/1.1 协议的扩展，它允许客户机执行远程 Web 内容�
 
 - 导师: [xuanwo](https://matrix.to/#/@xuanwo:matrix.org)
 - Issue: <https://github.com/beyondstorage/go-service-webdav/issues/1>
+- Expect Output:
+  - Implement all functions in [storage.go](https://github.com/beyondstorage/go-service-webdav/blob/master/storage.go).
+  - Setup [integration tests](/docs/go-storage/internal/integration-tests) as described.
+  - Update [documents](/docs/go-storage/services/webdav) and [examples](https://github.com/beyondstorage/go-storage-example).
 
 ### go-storage 的 FTP 实现
 
@@ -33,6 +37,11 @@ FTP 是互联网历史上最悠久的网络工具，至今仍在多个领域被�
 
 - 导师: [lanceren](https://matrix.to/#/@lanceren:matrix.org)
 - Issue: <https://github.com/beyondstorage/go-service-ftp/issues/3>
+- Expect Output:
+  - Implement all functions in [storage.go](https://github.com/beyondstorage/go-service-ftp/blob/master/storage.go).
+  - Setup [integration tests](/docs/go-storage/internal/integration-tests) as described.
+  - Update [documents](/docs/go-storage/services/ftp) and [examples](https://github.com/beyondstorage/go-storage-example).
+
 
 ### go-storage 的 minio 实现
 
@@ -40,6 +49,10 @@ minio 是一款开源的云原生高性能对象存储服务。 这个项目将�
 
 - 导师: [lanceren](https://matrix.to/#/@lanceren:matrix.org)
 - Issue: <https://github.com/beyondstorage/go-service-minio/issues/2>
+- Expect Output:
+  - Implement all functions in [storage.go](https://github.com/beyondstorage/go-service-minio/blob/master/storage.go).
+  - Setup [integration tests](/docs/go-storage/internal/integration-tests) as described.
+  - Update [documents](/docs/go-storage/services/minio) and [examples](https://github.com/beyondstorage/go-storage-example).
 
 ### go-storage 的 HDFS 实现
 
@@ -47,6 +60,10 @@ Hadoop 分布式文件系统 (HDFS) 是一款为大规模数据集上的应用�
 
 - 导师： [xxchan](https://matrix.to/#/@xxchan:matrix.org)
 - Issue: <https://github.com/beyondstorage/go-service-hdfs/issues/1>
+- Expect Output:
+  - Implement all functions in [storage.go](https://github.com/beyondstorage/go-service-hdfs/blob/master/storage.go).
+  - Setup [integration tests](/docs/go-storage/internal/integration-tests) as described.
+  - Update [documents](/docs/go-storage/services/hdfs) and [examples](https://github.com/beyondstorage/go-storage-example).
 
 ### go-storage 的 ipfs 实现
 
@@ -54,6 +71,10 @@ the InterPlanetary File System（IPFS）即星际文件系统，是一种基于�
 
 - 导师： [xxchan](https://matrix.to/#/@xxchan:matrix.org)
 - Issue: <https://github.com/beyondstorage/go-service-ipfs/issues/1>
+- Expect Output:
+  - Implement all functions in [storage.go](https://github.com/beyondstorage/go-service-ipfs/blob/master/storage.go).
+  - Setup [integration tests](/docs/go-storage/internal/integration-tests) as described.
+  - Update [documents](/docs/go-storage/services/ipfs) and [examples](https://github.com/beyondstorage/go-storage-example).
 
 ### go-storage 的 Storj 实现
 
@@ -61,6 +82,10 @@ Storj 是一个去中心化的云存储框架网络平台，这个项目将会�
 
 - 导师: [xuanwo](https://matrix.to/#/@xuanwo:matrix.org)
 - Issue: <https://github.com/beyondstorage/go-service-storj/issues/1>
+- Expect Output:
+  - Implement all functions in [storage.go](https://github.com/beyondstorage/go-service-storj/blob/master/storage.go).
+  - Setup [integration tests](/docs/go-storage/internal/integration-tests) as described.
+  - Update [documents](/docs/go-storage/services/storj) and [examples](https://github.com/beyondstorage/go-storage-example).
 
 ### 基于 go-storage 开发 ftp 服务器
 
@@ -68,6 +93,10 @@ FTP 是互联网历史上最悠久的网络工具，至今仍在多个领域被�
 
 - 导师: [lanceren](https://matrix.to/#/@lanceren:matrix.org)
 - Issue: <https://github.com/beyondstorage/go-ftp-server/issues/1>
+- Expect Output:
+  - Implement an FTP server at [go-ftp-server](https://github.com/beyondstorage/go-ftp-server).
+  - Implement integration tests.
+  - Update [documents](/docs/go-ftp-server/index)
 
 ### go-storage 的 Google Drive 实现
 
@@ -75,6 +104,10 @@ Google Drive 是谷歌开发的文件存储和同步服务。 这个项目将会
 
 - 导师: [xuanwo](https://matrix.to/#/@xuanwo:matrix.org)
 - Issue: <https://github.com/beyondstorage/go-service-gdrive/issues/2>
+- Expect Output:
+  - Implement all functions in [storage.go](https://github.com/beyondstorage/go-service-gdrive/blob/master/storage.go).
+  - Setup [integration tests](/docs/go-storage/internal/integration-tests) as described.
+  - Update [documents](/docs/go-storage/services/gdrive) and [examples](https://github.com/beyondstorage/go-storage-example).
 
 ### go-storage 的 OneDrive 实现
 
@@ -82,6 +115,10 @@ Microsoft OneDrive(原为 SkyDrive) 是一个文件托管服务和同步服务�
 
 - 导师： [xxchan](https://matrix.to/#/@xxchan:matrix.org)
 - Issue: <https://github.com/beyondstorage/go-service-onedrive/issues/2>
+- Expect Output:
+  - Implement all functions in [storage.go](https://github.com/beyondstorage/go-service-onedrive/blob/master/storage.go).
+  - Setup [integration tests](/docs/go-storage/internal/integration-tests) as described.
+  - Update [documents](/docs/go-storage/services/onedrive) and [examples](https://github.com/beyondstorage/go-storage-example).
 
 ## 关于
 
