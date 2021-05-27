@@ -1,5 +1,9 @@
 [Aliyun Object Storage](https://www.aliyun.com/product/oss)
 
+## Repo
+
+<https://github.com/beyondstorage/go-service-oss>
+
 ## Config
 
 ### Servicer
