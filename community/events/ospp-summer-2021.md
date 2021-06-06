@@ -8,7 +8,7 @@ title: Summer 2021 of Open Source Promotion Plan
 ```mdx-code-block
 <BrowserWindow>
 
-<TOCInline toc={[toc[0]} />
+<TOCInline toc={[toc[0]]} />
 
 </BrowserWindow>
 ```
