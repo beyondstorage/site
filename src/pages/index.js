@@ -6,8 +6,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import Layout from '@theme/Layout';
 
-import TOCInline from '@theme/TOCInline';
-
 function Home() {
     const context = useDocusaurusContext();
     const {siteConfig: {customFields = {}, tagline} = {}} = context;
