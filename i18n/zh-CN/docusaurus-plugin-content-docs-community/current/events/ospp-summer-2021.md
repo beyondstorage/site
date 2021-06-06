@@ -42,7 +42,6 @@ FTP 是互联网历史上最悠久的网络工具，至今仍在多个领域被�
   - 设置 [集成测试](/docs/go-storage/internal/integration-tests)。
   - 更新 [文档](/docs/go-storage/services/ftp) 和 [示例](https://github.com/beyondstorage/go-storage-example)。
 
-
 ### go-storage 的 minio 实现
 
 minio 是一款开源的云原生高性能对象存储服务。 这个项目将会使用 minio 原生的 SDK 来实现 go-storage 的 Storager 接口，使得用户能够通过统一的接口来操作 minio 服务器上的数据。
@@ -100,7 +99,7 @@ FTP 是互联网历史上最悠久的网络工具，至今仍在多个领域被�
 
 ### go-storage 的 Google Drive 实现
 
-Google Drive 是谷歌开发的文件存储和同步服务。 这个项目将会为 Google Drive 实现 go-storage 的 Storager 接口，使得用户能够通过统一的接口来操作 Google Drive 服务上的数据。
+Google Drive 是谷歌开发的文件存储和同步服务。 This project will implement go-storage's Storager interface, enabling users to manipulate data in Google Drive through a unified interface.
 
 - 导师: [xuanwo](https://matrix.to/#/@xuanwo:matrix.org)
 - Issue: <https://github.com/beyondstorage/go-service-gdrive/issues/2>
@@ -111,7 +110,7 @@ Google Drive 是谷歌开发的文件存储和同步服务。 这个项目将会
 
 ### go-storage 的 OneDrive 实现
 
-Microsoft OneDrive(原为 SkyDrive) 是一个文件托管服务和同步服务，由 Microsoft 运行 ，作为其网络版的 Office 的一部分。 这个项目将会为 OneDrive 实现 go-storage 的 Storager 接口，使得用户能够通过统一的接口来操作 OneDrive 服务上的数据。
+Microsoft OneDrive(原为 SkyDrive) 是一个文件托管服务和同步服务，由 Microsoft 运行 ，作为其网络版的 Office 的一部分。 This project will implement go-storage's Storager interface, enabling users to manipulate data in OneDrive through a unified interface.
 
 - 导师： [xxchan](https://matrix.to/#/@xxchan:matrix.org)
 - Issue: <https://github.com/beyondstorage/go-service-onedrive/issues/2>
@@ -119,6 +118,75 @@ Microsoft OneDrive(原为 SkyDrive) 是一个文件托管服务和同步服务�
   - 在 [storage.go](https://github.com/beyondstorage/go-service-onedrive/blob/master/storage.go) 中实现所有函数。
   - 设置 [集成测试](/docs/go-storage/internal/integration-tests)。
   - 更新 [文档](/docs/go-storage/services/onedrive) 和 [示例](https://github.com/beyondstorage/go-storage-example)。
+
+## Q&A
+
+```mdx-code-block
+import TOCInline from '@theme/TOCInline';
+
+<TOCInline toc={[toc[3]]} />
+```
+
+### How to apply?
+
+:::caution
+
+The application deadline is June, 13.
+
+:::
+
+> Be **open**, please don't try to connect or ask questions privately.
+
+Send your application in our [forum](https://forum.beyondstorage.io/) so that we can review it publicly. We screen candidates based on applications from the forum!
+
+Also register in the [official system](https://portal.summer-ospp.ac.cn/summer/login) of OSPP to complete the official application process.
+
+:::info
+
+You can apply for more than one projects (up to three among all the projects in OSPP).
+
+:::
+
+### What's the requirements/selection criteria?
+
+We will mainly look at your resume, Github account and your project schedule. Please tell why you are interested in the project and establish a feasible schedule.
+
+There are no hard and fast requirements. It will be better that you know a little golang, but it will be definitely okay if you don't know golang. No advanced techniques will be used.
+
+Actually the original purpose of this event is to attract new students to participate in open source projects and lower the threshold. If you are an experienced open source contributor, e.g., the committer of some well-known open source project, perhaps you are over-qualified and should be a mentor instead of a mentee :)
+
+### What can I get from the project?
+
+- The experience of participating in a complete project development process: given the requirements, how to plan, how to review, how to test
+- The experience of open source collaborative development
+- Basic knowledge of golang and a golang project experience.
+- The award money
+
+### What is this project going to do?
+
+The idea of `go-service-*` related projects is the same: to implement a `go-storage` interface for a storage service.
+
+[go-storage](https://github.com/beyondstorage/go-storage) is a storage abstraction layer we built, with various `go-services-*` to provide storage service support downwards and expose a unified interface upwards. In this way, user applications, such as FTP, FUSE, Webdav, data migration, backup, management, etc., can run on all storage services without additional modifications, by simply use the interface of `go-storage`. Write once, run on every storage services!
+
+So the background knowledge you will need to know is the interface defined by `go-storage` and how to implement the interface for corresponding storage service.
+
+### How much should I know about HDFS/IPFS/...?
+
+Don't panic if you find there are too much to learn. You will only need to know how to use them, and advanced knowledge like implementation details are not required.
+
+For example, it is enough to know hot to deploy a hadoop cluster via docker (https://github.com/big-data-europe/docker-hadoop), and then how to use a SDK to access it.
+
+### What's the expected outcome?
+
+In this project, you will only need to implement `Storager`. Take `go-service-hdfs` as an example, you will need to implement the functions [here](https://github.com/beyondstorage/go-service-hdfs/blob/master/storage.go)
+
+The implementation won't be very hard, but you should set up and pass the integration tests. This will be relatively harder. You will perhaps need to deploy a cluster and handle some corner cases.
+
+### Do we have to use an official SDK?
+
+No. We can also use a well-maintained community SDK.
+
+But you will need to communicate with your mentor to clarify the choices and trade-offs.
 
 ## 关于
 
