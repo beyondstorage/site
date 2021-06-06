@@ -133,8 +133,6 @@ enabling users to manipulate data in OneDrive through a unified interface.
 ## Q&A 
 
 ```mdx-code-block
-import TOCInline from '@theme/TOCInline';
-
 <TOCInline toc={[toc[3]]} />
 ```
 
