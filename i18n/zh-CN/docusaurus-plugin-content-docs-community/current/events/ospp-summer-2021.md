@@ -16,15 +16,15 @@ import TOCInline from '@theme/TOCInline';
 
 ## 路线图
 
-- 加入我们的聊天室 [#event-ospp-2021](https://matrix.to/#/#event-ospp-summer-2021:aos.dev) 来与导师和其他学员进行沟通。
-- 从下面选择一个项目。
+- Join any of our chatrooms [#event-ospp-summer-2021](https://matrix.to/#/#event-ospp-summer-2021:aos.dev) to communicate with mentors and other mentees.
+- Choose a project from the following.
 - 用 [模板](https://forum.beyondstorage.io/t/ospp-2021-summer-student-application-template/41) 将您的申请发送到 [论坛](https://forum.beyondstorage.io/)。
 
-> 访问 [https://summer.iscas.ac.cn/help/timeine/](https://summer.iscas.ac.cn/help/timeline/) 获取完整的时间线。
+> Visit <https://summer.iscas.ac.cn/help/timeline/> to get the full timeline.
 
 ## 项目
 
-在本次活动中，我们提供了以下项目。
+In this event, we provide the following projects.
 
 ### go-storage 的 WebDAV 实现
 
@@ -50,7 +50,7 @@ FTP 是互联网历史上最悠久的网络工具，至今仍在多个领域被�
 
 ### go-storage 的 minio 实现
 
-minio 是一款开源的云原生高性能对象存储服务。 这个项目将会使用 minio 原生的 SDK 来实现 go-storage 的 Storager 接口，使得用户能够通过统一的接口来操作 minio 服务器上的数据。
+minio is an open-source cloud-native high-performance object storage service. 这个项目将会使用 minio 原生的 SDK 来实现 go-storage 的 Storager 接口，使得用户能够通过统一的接口来操作 minio 服务器上的数据。
 
 - 导师: [lanceren](https://matrix.to/#/@lanceren:matrix.org)
 - Issue: <https://github.com/beyondstorage/go-service-minio/issues/2>
@@ -137,15 +137,15 @@ If you have more questions, discuss in these [channels](#communication).
 
 :::caution
 
-The application deadline is June, 13.
+The application deadline is June 13.
 
 :::
 
-> Be **open**, please don't try to connect or ask questions privately.
+> Be **open**. Please don't try to connect or ask questions privately.
 
 Send your application in our [forum](https://forum.beyondstorage.io/) so that we can review it publicly. We screen candidates based on applications from the forum!
 
-Also register in the [official system](https://portal.summer-ospp.ac.cn/summer/login) of OSPP to complete the official application process.
+Also, register in the [official system](https://portal.summer-ospp.ac.cn/summer/login) of OSPP to complete the official application process.
 
 :::info
 
@@ -174,19 +174,19 @@ Actually the original purpose of this event is to attract new students to partic
 
 The idea of `go-service-*` related projects is the same: to implement a `go-storage` interface for a storage service.
 
-[go-storage](https://github.com/beyondstorage/go-storage) is a storage abstraction layer we built. It expose a unified interface upwards, and various `go-services-*` provide storage service support downwards. In this way, user applications, such as FTP, FUSE, Webdav, data migration, backup, management, etc., can run on all storage services without additional modifications, by simply use the interface of `go-storage`. Write once, run on every storage services!
+[go-storage](https://github.com/beyondstorage/go-storage) is a storage abstraction layer we built. It exposes a unified interface upwards, and various `go-services-*` provide storage service support downwards. In this way, user applications, such as FTP, FUSE, Webdav, data migration, backup, management, etc., can run on all storage services without additional modifications, by simply use the interface of `go-storage`. Write once, run on every storage service!
 
-So the background knowledge you will need to know is the interface defined by `go-storage` and how to implement the interface for corresponding storage service.
+So the background knowledge you will need to know is the interface defined by `go-storage` and how to implement the interface for a corresponding storage service.
 
 ### How much should I know about HDFS/IPFS/...?
 
-Don't panic if you find there are too much to learn. You will only need to know how to use them, and advanced knowledge like implementation details are not required.
+Don't panic if you find there is too much to learn. You will only need to know how to use them, and advanced knowledge like implementation details are not required.
 
-For example, it is enough to know hot to deploy a hadoop cluster via docker (https://github.com/big-data-europe/docker-hadoop), and then how to use a SDK to access it.
+For example, it is enough to know how to deploy a Hadoop cluster via docker (https://github.com/big-data-europe/docker-hadoop), and then how to use an SDK to access it.
 
 ### What's the expected outcome?
 
-In this project, you will only need to implement `Storager`. Take `go-service-hdfs` as an example, you will need to implement the functions [here](https://github.com/beyondstorage/go-service-hdfs/blob/master/storage.go).
+In this project, you will only need to implement `Storager`. Take `go-service-hdfs` as an example; you will need to implement the functions [here](https://github.com/beyondstorage/go-service-hdfs/blob/master/storage.go).
 
 The implementation won't be very hard, but you should set up and pass the integration tests. This will be relatively harder. You will perhaps need to deploy a server or cluster and handle some corner cases.
 
@@ -204,7 +204,7 @@ But you will need to communicate with your mentor to clarify the choices and tra
 
 开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，致力于培养和发掘更多优秀的开发者。
 
-活动将在暑期进行， 我们将与开源社区紧密合作，提供一对一的导师指导，邀请技术大牛开展线上免费讲座。 我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，促进开源软件的发展和优秀开源软件社区建设， 增加开源项目的活跃度，推进开源生态的发展。
+活动将在暑期进行， 我们将与开源社区紧密合作，提供一对一的导师指导，邀请技术大牛开展线上免费讲座。 我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，促进开源软件的发展和优秀开源软件社区建设， Furthermore, 'Summer 2021' is supposed to increase the activity of open source projects, and promote the development of open source ecology.
 
 链接： [https://summer.iscas.cn/](https://summer.iscas.ac.cn/)
 
