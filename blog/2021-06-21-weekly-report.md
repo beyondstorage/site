@@ -74,7 +74,7 @@ We tried to resolve this problem in issue [Feature gates are confusing](https://
 
 ### Update RFC format
 
-[@xxchan] found current RFC's format is hard to maintain, so he camps up a new idea to [update rfc format](https://github.com/beyondstorage/specs/issues/110). We will get this into the proposal process sooner or later.
+[@xxchan] found current RFC's format is hard to maintain, so he came up a new idea to [update rfc format](https://github.com/beyondstorage/specs/issues/110). We will get this into the proposal process sooner or later.
 
 ## New Articles
 
