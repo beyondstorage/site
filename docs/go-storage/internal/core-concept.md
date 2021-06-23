@@ -73,7 +73,7 @@ We have two types of storage metadata:
 
 ### Object Metadata
 
-`Storage Metadata` is the metadata that we can retrieve from an object, for example, `size`, `last_modified`, `storage_class`, and so on.
+`Object Metadata` is the metadata that we can retrieve from an object, for example, `size`, `last_modified`, `storage_class`, and so on.
 
 We have three types of storage metadata:
 
