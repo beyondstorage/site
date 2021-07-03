@@ -70,6 +70,22 @@ Our new website is now deployed and online! Please check <https://beyondstorage.
 and we are now keeping adding more information into the website. Please feel free to make suggestion by contacting us.
 Or you can also [submit an issue](https://github.com/beyondstorage/site/issues) for us, both ways are welcome.
 
+### Community Organization
+
+BeyondStorage has been grown up, and we need to define our community organization 
+to make it clear that everyone's rights and responsibilities.
+
+So [@Xuanwo] made a proposal [GSP-128: Community Organization](https://github.com/beyondstorage/specs/blob/master/rfcs/128-community-organization.md)
+to declare five different roles and their permissions in [BeyondStorage], including:
+
+- Leader
+- Maintainer
+- Committer
+- Reviewer
+- Contributor
+
+For more details, please refer to [GSP-128: Community Organization](https://github.com/beyondstorage/specs/pull/128).
+
 ### Summer 2021 of Open Source Promotion Plan
 
 This week, the list of drafted students is confirmed, here are the OSPP 2021 application results:
