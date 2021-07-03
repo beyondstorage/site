@@ -66,7 +66,7 @@ For more details, please refer to [issue: Add Copier and Mover tests](https://gi
 
 ### Website
 
-Our new website is now deployed and online! Please check <https://beyondstorage.io> to take a peer, 
+Our new website is now deployed and online! Please check <https://beyondstorage.io> to take a glance, 
 and we are now keeping adding more information into the website. Please feel free to make suggestion by contacting us.
 Or you can also [submit an issue](https://github.com/beyondstorage/site/issues) for us, both ways are welcome.
 
