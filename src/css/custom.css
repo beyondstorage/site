@@ -16,6 +16,8 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
 
+  --ifm-h3-font-size: 1.125rem;
+
   --ifm-navbar-height: auto;
   --ifm-navbar-shadow: none;
   --ifm-navbar-padding-vertical: 2rem;

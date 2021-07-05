@@ -25,6 +25,10 @@
   border-color: var(--ifm-color-primary);
 }
 
+.DocSearch-Button-Keys {
+  display: none;
+}
+
 .DocSearch-Container {
   z-index: calc(var(--ifm-z-index-fixed) + 1);
 }

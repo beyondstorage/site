@@ -5,6 +5,15 @@
  * and scoped locally.
  */
 
+.projectName {
+  display: inline-block;
+  margin-bottom: 0;
+
+  background-image: url('/img/underline.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
 .banner {
   position: relative;
   padding: 50px 0 var(--main-modules-gap);
@@ -37,7 +46,7 @@
   margin: 0 auto var(--main-modules-gap);
 }
 
-.introduction > h2 {
+.introduction > h3 {
   display: inline-flex;
   align-items: center;
   margin-bottom: 30px;
@@ -77,7 +86,7 @@
 }
 
 .introductionOpen {
-  background-color: #457DF6;
+  background-color: #4898F7;
 }
 
 .introductionNeutral {
@@ -85,7 +94,7 @@
 }
 
 .introductionUserCentrality {
-  background-color: #916BF6;
+  background-color: #8E6AF6;
 }
 
 /* architecture */
@@ -103,45 +112,49 @@
 
 /* projects */
 
-.projects {
+.projects h1 {
+  display: inline-block;
+
+  margin-bottom: 60px;
+  font-size: 2.25rem;
+
+  background-image: url('/img/underline1.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.projectsContent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.projects h1 {
-  grid-column-end: 3;
-  grid-column-start: 1;
-
-  margin-bottom: 60px;
-  font-size: 2.25rem;
-}
-
-.projects > div {
+.projectsContent > div {
   display: flex;
   flex-direction: column;
-  grid-template-rows: 240px repeat(5, auto) 1fr auto;
   align-items: center;
   margin-bottom: 32px;
 }
 
-.projects > div > img, .projects > div > p {
+.projectsContent > div > img, .projects > div > p {
   margin-bottom: 32px;
 }
 
-.projects h2 {
+.projectsContent h2 {
   margin-bottom: 20px;
 }
 
-.projects ul {
+.projectsContent ul {
+  flex-grow: 1;
+
   display: inline-block;
   text-align: left;
 }
 
-.projects ul li {
+.projectsContent ul li {
   margin-bottom: 24px;
 }
 
-.projects a {
+.projectsContent a {
   display: inline-flex;
   align-items: center;
   padding: 0 20px;
