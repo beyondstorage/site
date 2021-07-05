@@ -20,6 +20,30 @@ const Introduction = ({
     </div>
 );
 
+const Project = ({
+    logo, url, title, description, articles = []
+}) => (
+    <div className={styles.project}>
+        <img src={useBaseUrl(logo)} />
+        <h2>{title}</h2>
+        <p>{description}</p>
+        <ul>
+            {
+                articles.map((article, index) => (
+                    <li key={index}>{article}</li>
+                ))
+            }
+        </ul>
+        <div />
+        <div>
+            <a href={url} target="__blank">
+                <Translate>Learn More</Translate>
+                <img src={useBaseUrl('/img/arrow.svg')} />
+            </a>
+        </div>
+    </div>
+);
+
 function Home() {
     const context = useDocusaurusContext();
     const { title, customFields = {} } = context.siteConfig || {};
@@ -62,6 +86,31 @@ function Home() {
             </div>
             <div className={styles.architecture}>
                 <img src={useBaseUrl('/img/architecture.svg')} />
+            </div>
+            <div className={styles.projects}>
+                <h1><Translate>Current Working On</Translate></h1>
+                <Project
+                    title="go-storage"
+                    logo="/img/go_storage.svg"
+                    url="https://github.com/beyondstorage/go-storage"
+                    description={<Translate>go storage description</Translate>}
+                    articles={[
+                        <Translate>go storage article one</Translate>,
+                        <Translate>go storage article two</Translate>,
+                        <Translate>go storage article three</Translate>,
+                    ]}
+                />
+                <Project
+                    title="dm"
+                    logo="/img/dm.svg"
+                    url="https://github.com/beyondstorage/dm"
+                    description={<Translate>dm description</Translate>}
+                    articles={[
+                        <Translate>dm article one</Translate>,
+                        <Translate>dm article two</Translate>,
+                        <Translate>dm article three</Translate>,
+                    ]}
+                />
             </div>
             <Community />
             <Link className={styles.architecture} to="community/#discussions">
