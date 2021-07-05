@@ -3,7 +3,7 @@
   margin-bottom: var(--main-modules-gap);
   padding: 40px var(--ifm-navbar-padding-horizontal);
 
-  background-color: #8E6AF6;
+  background-color: #8D67FD;
 }
 
 .communitiesContent {
@@ -44,7 +44,7 @@
   flex-direction: column;
   padding: 40px;
 
-  background: #F1E759;
+  background: #FEEE60;
   border-radius: 8px;
 }
 
