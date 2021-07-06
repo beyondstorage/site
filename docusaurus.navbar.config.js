@@ -46,12 +46,6 @@ module.exports = {
             className: 'navbar__link--twitter',
             'aria-label': 'Twitter',
         },
-        // {
-        //     href: 'https://join.slack.com/t/aos-wg/shared_invite/zt-pf4yk96u-7znnJVYpQvY57C3rRrbDPg',
-        //     position: 'right',
-        //     className: 'navbar__link--slack',
-        //     'aria-label': 'GitHub repository',
-        // },
         {
             href: 'https://github.com/beyondstorage',
             position: 'right',
