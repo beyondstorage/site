@@ -41,7 +41,7 @@ module.exports = {
             title: 'Projects',
             items: [
                 {label: 'go-storage', href: 'https://github.com/beyondstorage/go-storage'},
-                {label: 'BeyondTP', href: 'https://github.com/beyondstorage/dm'},
+                {label: 'BeyondTP', href: 'https://github.com/beyondstorage/beyond-tp'},
             ],
         },
         {
