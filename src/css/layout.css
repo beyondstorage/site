@@ -115,6 +115,11 @@
   color: #31383E;
 }
 
+.footer .footer__link-item:hover {
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+}
+
 .footer .footer__links .footer__col {
   padding: 0;
 }
