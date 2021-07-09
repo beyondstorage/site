@@ -125,7 +125,7 @@ For more details, please refer to [ci: Add codecov in unittests](https://github.
 
 ### Forum UI Design
 
-We use <https://forum.beyondstorage.io> as our forum, and now our nuw forum theme UI is in designing!
+We use <https://forum.beyondstorage.io> as our forum, and now our new forum theme UI is in designing!
 
 The draft is [here](https://www.figma.com/file/AqHxMvbAccGQM5NtvQEGCn/BeyondStorage.io?node-id=23%3A0),
 please feel free to submit your opinion.
