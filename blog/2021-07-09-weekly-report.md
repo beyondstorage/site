@@ -7,6 +7,8 @@ tags: [updates, weekly-report]
 
 Hello everyone, here is the weekly report for [BeyondStorage], range from 2021-07-05 to 2021-07-09.
 
+<!--truncate-->
+
 ## Application
 
 ### BeyondTeleport
