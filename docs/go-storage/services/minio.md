@@ -25,7 +25,7 @@ import (
     "github.com/beyondstorage/go-storage/v4/services"
 )
 
-srv, err := services.NewServicerFromString("minio://？credential=hmac:access_key:secret_key&endpoint=https:host:port")
+srv, err := services.NewServicerFromString("minio://?credential=hmac:<access_key>:<secret_key>&endpoint=https:<host>:<port>")
 if err != nil {
     log.Fatalf("minio new service: %v", err)
 }
