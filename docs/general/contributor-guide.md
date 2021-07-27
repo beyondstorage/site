@@ -51,7 +51,7 @@ For other projects, there are no dedicated teams responsible for, our community 
 ### Create your branch
 
 Switch to your forked master branch, pull codes from upstream, then create a new branch.
-
+Notice: **Every time you try to fix an issue, you should update the upstream and checkout from the master branch to make sure your code is up to date.**
 ```shell
 git checkout master
 git pull upstream master
