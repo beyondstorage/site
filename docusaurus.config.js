@@ -135,5 +135,17 @@ module.exports = {
                 showLastUpdateTime: true,
             },
         ],
+        [
+            '@docusaurus/plugin-client-redirects',
+            {
+                redirects: [
+                    {
+                        // Redirect docs to general
+                        from: ['/docs'],
+                        to: '/docs/general/index',
+                    },
+                ],
+            },
+        ],
     ]
 };

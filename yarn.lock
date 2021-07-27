@@ -1487,6 +1487,23 @@
     url-loader "^4.1.1"
     webpack "^5.40.0"
 
+"@docusaurus/plugin-client-redirects@^2.0.0-beta.3":
+  version "2.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-client-redirects/-/plugin-client-redirects-2.0.0-beta.3.tgz#c5e70286cd60557fce3b60c48b2c0a976e71e5fc"
+  integrity sha512-15lU21XYFC3afH2OFCa7Qul6yOdDPDiYJTJg3mOE3h0mzXlbrHeOkkbMJTwbSLmktwyiCxORFJX0zRk1/zXsow==
+  dependencies:
+    "@docusaurus/core" "2.0.0-beta.3"
+    "@docusaurus/types" "2.0.0-beta.3"
+    "@docusaurus/utils" "2.0.0-beta.3"
+    "@docusaurus/utils-common" "2.0.0-beta.3"
+    "@docusaurus/utils-validation" "2.0.0-beta.3"
+    chalk "^4.1.1"
+    eta "^1.11.0"
+    fs-extra "^10.0.0"
+    globby "^11.0.2"
+    lodash "^4.17.20"
+    tslib "^2.2.0"
+
 "@docusaurus/plugin-content-blog@2.0.0-beta.3":
   version "2.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-content-blog/-/plugin-content-blog-2.0.0-beta.3.tgz#cb7ea4c61ee8717a76595b339932e7ee9fe9e091"
@@ -4027,6 +4044,11 @@ esutils@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
+
+eta@^1.11.0:
+  version "1.12.3"
+  resolved "https://registry.yarnpkg.com/eta/-/eta-1.12.3.tgz#2982d08adfbef39f9fa50e2fbd42d7337e7338b1"
+  integrity sha512-qHixwbDLtekO/d51Yr4glcaUJCIjGVJyTzuqV4GPlgZo1YpgOKG+avQynErZIYrfM6JIJdtiG2Kox8tbb+DoGg==
 
 eta@^1.12.1:
   version "1.12.1"
