@@ -34,7 +34,7 @@ git remote add upstream git@github.com:beyondstorage/go-storage.git
 1. After choosing the relevant issue, please reply with a deadline to indicate that you are working on it.
 1. Depends on your working on projects, please ping different groups to give you feedback about your PR or issue in time.
 
-For go-storage related projects (including `go-storage` and `go-storage-*`):
+For go-storage related projects (including `go-storage` and `go-service-*`):
 
 - `@go-storage-maintainer`
 - `@go-storage-committer`
@@ -72,8 +72,9 @@ git push origin <IssueNo>
 ### Submit PR
 
 1. Send a pull request to the master branch.
+1. Make sure that the pull request title has a semantic prefix like `fix:` or `feat:` or any other [conventional commit types](https://github.com/commitizen/conventional-commit-types/blob/master/index.json).
+1. Add `fix #xxx` or `close #xxx` in PR description to link to the related issues.
 1. The mentor will do a code review before discussing some details (including the design, the implementation, and the performance) with you.
-1. Also make sure that the pull request title has a semantic prefix like `fix:` or `feat:` or any other [conventional commit types](https://github.com/commitizen/conventional-commit-types/blob/master/index.json).
 1. Then congratulate you to be an official contributor of BeyondStorage.
 
 ## Notice
