@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/docs",
-      "destination": "/docs/general/index",
-      "permanent": true
-    }
-  ]
-}
