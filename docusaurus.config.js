@@ -134,6 +134,6 @@ module.exports = {
                 showLastUpdateAuthor: true,
                 showLastUpdateTime: true,
             },
-        ]
+        ],
     ]
 };
