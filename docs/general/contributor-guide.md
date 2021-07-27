@@ -66,7 +66,7 @@ git checkout -b IssueNo
 ```shell
 git add modified-file-names
 git commit -m 'commit message'
-git push origin <IssueNumber>
+git push origin <IssueNo>
 ```
 
 ### Submit PR
