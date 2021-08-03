@@ -1,4 +1,13 @@
+---
+title: "2021-30 Weekly Report"
+author: "Prnyself"
+author_url: "https://github.com/Prnyself"
+tags: [updates, weekly-report]
+---
+
 Hello everyone, here is the weekly report for [BeyondStorage], range from 2021-07-26 to 2021-08-01.
+
+<!--truncate-->
 
 ## Here’s what we focused on this week:
 
