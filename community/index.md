@@ -25,7 +25,7 @@ Our formal announcement will be on our forums.
 
 This is the main method to communicate with Beyond Storage developers.
 
-We host our matrix server on `https://chat.matrix.org`.
+We host our matrix server on `https://matrix.org`.
 
 - For english speaking: join in [#campfire](https://matrix.to/#/#beyondstorage@campfire:matrix.org)
 - For chinese speaking: join in [#campfire-zh](https://matrix.to/#/#beyondstorage@campfire-zh:matrix.org)
