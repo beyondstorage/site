@@ -12,7 +12,7 @@
 
 | Name                               | Required | Comments       |
 |------------------------------------|----------|----------------|
-| [credential](../pairs/endpoint.md) | N        | only support `basic` protocol, using `basic:anonymous:anonymous` as default |
+| [credential](../pairs/credential.md) | N        | only support `basic` protocol, using `basic:anonymous:anonymous` as default |
 | [endpoint](../pairs/endpoint.md)   | N        | ftp server url, using `127.0.0.1` as default |
 | [work_dir](../pairs/work_dir.md)   | N        | work dir       |
 
@@ -27,6 +27,16 @@ import (
 )
 
 store, err := services.NewStoragerFromString("ftp://<work_dir>?credential=basic:<user>:<password>&endpoint=tcp:<host>:<port>")
+if err != nil {
+    log.Fatalf("ftp new storager: %v", err)
+}
+
+// New storager from pair
+store , err:= services.NewStorager("ftp", []Pair{
+        { "credential": "basic:<user>:<password>" }, 
+        { "endpoint": "tcp:<host>:<port>" }, 
+        { "work_dir": "<path>" }, 
+    })
 if err != nil {
     log.Fatalf("ftp new storager: %v", err)
 }
