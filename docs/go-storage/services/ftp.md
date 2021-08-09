@@ -22,6 +22,7 @@ Init storager (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
+    ps "github.com/beyondstorage/go-storage/v4/pairs"
     _ "github.com/beyondstorage/go-service-ftp"
     "github.com/beyondstorage/go-storage/v4/services"
 )
