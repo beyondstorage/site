@@ -32,11 +32,11 @@ if err != nil {
 }
 
 // New storager from pair
-store , err:= services.NewStorager("ftp", []Pair{
-        { "credential": "basic:<user>:<password>" }, 
-        { "endpoint": "tcp:<host>:<port>" }, 
-        { "work_dir": "<path>" }, 
-    })
+store , err:= services.NewStorager("ftp",
+    ps.WithWorkDir("<path>"),
+    ps.WithCredential("basic:<user>:<password>"),
+    ps.WithEndpoint("tcp:<host>:<port>"),
+)
 if err != nil {
     log.Fatalf("ftp new storager: %v", err)
 }
