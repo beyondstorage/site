@@ -188,5 +188,6 @@ func (s *Storage) nextObjectPageByDir(ctx context.Context, page *ObjectPage) err
 - In `nextObjectPageByDir`:
   - Don't use the `for` loop, our iterator already handles it.
   - Don't read the whole list, this will consume too much memory.
+    - We can specify a `limit` when the service API supports.
   - Don't store returned slices in `objectPageStatus`, handle and parse them directly to `page.Data`.
   - Return `IterateDone` when this is no more data.
