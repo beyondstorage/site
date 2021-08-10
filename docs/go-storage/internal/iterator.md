@@ -161,42 +161,19 @@ func (s *Storage) list(ctx context.Context, path string, opt pairStorageList) (o
 func (s *Storage) nextObjectPageByDir(ctx context.Context, page *ObjectPage) error {
    input := page.Status.(*objectPageStatus)
 
-   // construct API input.
-   listInput := &s3.ListObjectsV2Input{
-      Bucket:            &s.name,
-      Delimiter:         &input.delimiter,
-      MaxKeys:           &input.maxKeys,
-      ContinuationToken: input.getServiceContinuationToken(),
-      Prefix:            &input.prefix,
-   }
-   if input.expectedBucketOwner != "" {
-      listInput.ExpectedBucketOwner = &input.expectedBucketOwner
-   }
+   // construct API input via objectPageStatus.
+   ...
 
-   // Only send API once.
+   // Send API call only once.
    output, err := s.service.ListObjectsV2WithContext(ctx, listInput)
    if err != nil {
       return err
    }
 
-   for _, v := range output.CommonPrefixes {
-      o := s.newObject(true)
-      o.ID = *v.Prefix
-      o.Path = s.getRelPath(*v.Prefix)
-      o.Mode |= ModeDir
+   // Handle and parse output to object
+   ...
 
-      page.Data = append(page.Data, o)
-   }
-
-   for _, v := range output.Contents {
-      o, err := s.formatFileObject(v)
-      if err != nil {
-         return err
-      }
-
-      page.Data = append(page.Data, o)
-   }
-
+   // Return IterateDone when this is no more data.
    if !aws.BoolValue(output.IsTruncated) {
       return IterateDone
    }
