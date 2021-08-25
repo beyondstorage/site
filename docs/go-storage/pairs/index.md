@@ -35,7 +35,7 @@ We will document all global pair here and leave system pairs in service's docume
 
 `go-storage` provides a mechanism to allow user pass default pairs for every operation during `NewServicer` and `NewStorager`.
 
-Any service that supports this mechanism will generate system pairs called  `DefaultServicePairs` and `DefaultStoragePairs`:
+Any service that supports this mechanism will generate system pairs called `DefaultServicePairs` and `DefaultStoragePairs`:
 
 ```go
 type DefaultStoragePairs struct {
@@ -73,3 +73,32 @@ store, err := s3.NewStorager(
 ```
 
 As in example, every call to `Write` will specify the `storage_class` to `STANDARD_IA`.
+
+To simplify the use of default pairs, we introduced `defaultable` pairs for service. Then generate pairs for features and `defaultable` pairs, and also generate the following functions for them:
+
+```go
+func WithEnableVirtualDir() Pair {
+    return Pair{
+        Key:   "enable_virtual_dir",
+        Value: true,
+    }
+}
+
+func WithDefaultStorageClass(v string) Pair {
+	return Pair{
+        Key:   "default_storage_class",
+        Value: v,
+	}
+}
+```
+
+User can use feature and default pairs like:
+
+```go
+store, err := s3.NewStorager(
+	s3.WithEnableVirtualDir(),
+    s3.WithDefaultStorageClass("STANDARD_IA"),
+)
+```
+
+As in example, the service will support simulated dir behavior, and the pair of operations in the service with the same name `storage_class` will share the default value.
