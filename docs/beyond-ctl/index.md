@@ -16,8 +16,8 @@ beyondctl cp test.mp4 example:/test.mp4
 
 For now, we support following features:
 
-- [profile](profile): Multiple profile support.
-- [cp](cp.md): Copy file from source to destination.
+- [profile](./commands/profile.md): Multiple profile support.
+- [cp](./commands/cp.md): Copy file from source to destination.
 
 ## Call for help!
 
