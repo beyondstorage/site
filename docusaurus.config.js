@@ -24,29 +24,34 @@ module.exports = {
     onBrokenLinks: 'warn',
     customFields: {
         docs: [
-            {
-                name: "General",
-                url: "/docs/general/index"
-            },
+            // {
+            //     name: "General",
+            //     url: "/docs/general/index"
+            // },
             {
                 name: "go-storage",
-                url: "/docs/go-storage/index"
+                url: "/docs/go-storage/index",
+                description: 'A vendor-neutral storage library for Golang: Write once, run on every storage service.'
             },
             {
                 name: "BeyondTP",
-                url: "/docs/beyond-tp/index"
+                url: "/docs/beyond-tp/index",
+                description: 'Neutral data migration service.'
             },
+            // {
+            //     name: "BeyondCTL",
+            //     url: "/docs/beyond-ctl/index",
+            //     description: ''
+            // },
             {
-                name: "BeyondCTL",
-                url: "/docs/beyond-ctl/index"
+                name: "BeyondFTP",
+                url: "/docs/beyond-ftp/index",
+                description: 'FTP Server that based on go-storage.'
             },
             {
                 name: "BeyondFS",
-                url: "/docs/beyond-fs/index"
-            },
-            {
-                name: "BeyondFTP",
-                url: "/docs/beyond-ftp/index"
+                url: "/docs/beyond-fs/index",
+                description: 'A high-performance, POSIX-ish File System based on BeyondStorage / go-storage.'
             },
         ]
     },

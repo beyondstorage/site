@@ -9,16 +9,31 @@ import Community from '@theme/Community';
 
 import styles from './styles.module.css';
 
+const flags = ['/img/flag_green.svg', '/img/flag_blue.svg', '/img/flag_red.svg', '/img/flag_purple.svg']
+
 const ProjectCard = (props) => {
     const {
         name,
         url,
+        description,
+        version = '0.1.0',
+        updateTime = '2021-08-09',
+        index
     } = props;
 
     return (
-        <h2>
-            <a href={`${url}`}>{name}</a>
-        </h2>
+       <div className={styles.docsCard}>
+           <div>
+                <img src={useBaseUrl(flags[index])} />
+                <a href={url}>{name}</a>
+           </div>
+           <p>
+                {description}
+           </p>
+           <p>
+                {'Latest version ' + version + ' released at ' + updateTime}
+           </p>
+       </div>
     );
 };
 
@@ -29,8 +44,8 @@ function Home() {
     if (!(context.siteConfig.customFields.docs || []).length) {
         return null;
     }
-    const projects = context.siteConfig.customFields.docs.map((project) => {
-        return <ProjectCard key={project.name} {...project} />;
+    const projects = context.siteConfig.customFields.docs.map((project, index) => {
+        return <ProjectCard key={project.name} index={index % 4} {...project} />;
     });
 
     return (
@@ -38,8 +53,13 @@ function Home() {
             title={title}
             description={customFields.description}
         >
-            <h1>Documents (Under Development)</h1>
-            {projects}
+            <div className={styles.docs}>
+                <h1>DOCUMENTS</h1>
+                <p>Under Development</p>
+                <div className={styles.docsCardBox}>
+                    {projects}
+                </div>
+            </div>
         </Layout>
     );
 }

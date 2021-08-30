@@ -9,7 +9,7 @@
   display: inline-block;
   padding-right: 2px;
 
-  background-image: url('/img/underline.svg');
+  background-image: url("/img/underline.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -40,7 +40,6 @@
   min-width: var(--main-modules-width);
 }
 
-
 /* introduction */
 .introduction {
   width: var(--main-modules-width);
@@ -54,7 +53,7 @@
   padding: 0 12px;
   height: 44px;
 
-  background: #F1E759;
+  background: #f1e759;
   border-radius: 2px;
 
   font-weight: 300;
@@ -87,20 +86,21 @@
 }
 
 .introductionOpen {
-  background-color: #2B99FF;
+  background-color: #2b99ff;
 }
 
 .introductionNeutral {
-  background-color: #2DD482;
+  background-color: #2dd482;
 }
 
 .introductionUserCentrality {
-  background-color: #8D67FD;
+  background-color: #8d67fd;
 }
 
 /* architecture */
 
-.architecture, .projects {
+.architecture,
+.projects {
   display: block;
   width: var(--main-modules-width);
   margin: 0px auto var(--main-modules-gap);
@@ -121,7 +121,7 @@
 
   font-size: 2.25rem;
 
-  background-image: url('/img/underline1.svg');
+  background-image: url("/img/underline1.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -139,7 +139,8 @@
   margin-bottom: 32px;
 }
 
-.projectsContent > div > img, .projectsContent > div > p {
+.projectsContent > div > img,
+.projectsContent > div > p {
   margin-bottom: 32px;
 }
 
@@ -167,7 +168,7 @@
 
   color: #ffffff;
 
-  background: #31383E;
+  background: #31383e;
   border-radius: 4px;
   text-decoration: none;
 }
@@ -181,11 +182,91 @@
 }
 
 @media (max-width: 996px) {
-  .introductionContent, .projects, .projectsContent {
+  .introductionContent,
+  .projects,
+  .projectsContent {
     display: block;
   }
 
   .introductionContent > div {
     margin-bottom: 1rem;
+  }
+}
+
+/* docs */
+.docs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.docs h1 {
+  margin-top: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+}
+.docs p {
+  font-family: Proxima Nova;
+  font-weight: 400;
+  font-style: normal;
+  size: 14px;
+  line-height: 14px;
+}
+.docsCardBox {
+  width: 80%;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.docsCard {
+  box-sizing: border-box;
+  position: relative;
+  width: 500px;
+  margin: 10px 10px;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(203, 213, 225, 0.8);
+}
+.docsCard div {
+  display: flex;
+  align-items: center;
+}
+.docsCard div a {
+  padding-left: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 52px;
+  color: rgba(23, 28, 52, 1);
+}
+.docsCard p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(49, 56, 62, 1);
+}
+
+.docsCard p:first-of-type {
+  padding-top: 10px;
+  min-height: 70px;
+}
+
+@media (max-width: 996px) {
+  .docsCardBox {
+    width: 100%;
+    padding: 30px 0;
+  }
+  .docsCard p:first-of-type {
+    padding-top: 0px;
+    min-height: 0px;
   }
 }
