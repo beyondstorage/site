@@ -74,16 +74,22 @@ store, err := s3.NewStorager(
 
 As in example, every call to `Write` will specify the `storage_class` to `STANDARD_IA`.
 
-To simplify the use of default pairs, we introduced `defaultable` pairs for service. Then generate pairs for features and `defaultable` pairs, and also generate the following functions for them:
+### Defaultable Pair
+
+`defaultable` property for pair is introduced to set default value for pair, and the pair of operations with the same name will share the default value.
+
+Default pairs will be generated for `defaultable` pairs, and the generated pair for defaultable global pair is still global:
 
 ```go
-func WithEnableVirtualDir() Pair {
+// Defaultable global pair in pairs.
+func WithDefualtContentType(v string) Pair {
     return Pair{
-        Key:   "enable_virtual_dir",
-        Value: true,
+        Key:   "enable_content_type",
+        Value: v,
     }
 }
 
+// Defualtable system pair in service.
 func WithDefaultStorageClass(v string) Pair {
 	return Pair{
         Key:   "default_storage_class",
@@ -92,13 +98,64 @@ func WithDefaultStorageClass(v string) Pair {
 }
 ```
 
-User can use feature and default pairs like:
+User can use default pairs like:
+
+```go
+store, err := s3.NewStorager(
+    s3.WithDefaultStorageClass("STANDARD_IA"),
+    pairs.WithDefualtContentType("application/octet-stream"),
+)
+```
+
+As in example, pairs of operations in the service with the same name `storage_class` or `content_type` will share the default values.
+
+## Feature Pairs
+
+`go-storage` provides a mechanism of userland optional abilities for service during `NewServicer` and `NewStorager`.
+
+Any service that supports this mechanism will generate system pairs called `StorageFeatures` and `ServiceFeatures`:
+
+```go
+type StorageFeatures struct {
+	LoosePair bool
+	VirtualDir bool
+}
+
+func WithStorageFeatures(v StorageFeatures) Pair {
+    return Pair{
+        Key:   "storage_features",
+        Value: v,
+    }
+}
+```
+
+Enable feature pairs will be generated for each feature in service:
+
+```go
+func WithEnableVirtualDir() Pair {
+    return Pair{
+        Key:   "enable_virtual_dir",
+        Value: true,
+    }
+}
+```
+
+User can enable features like this:
+
+```go
+store, err := s3.NewStorager(
+    s3.WithStorageFeatures(s3.StorageFeatures{
+        VirtualDir:  true,
+    }),
+)
+```
+
+or:
 
 ```go
 store, err := s3.NewStorager(
 	s3.WithEnableVirtualDir(),
-    s3.WithDefaultStorageClass("STANDARD_IA"),
 )
 ```
 
-As in example, the service will support simulated dir behavior, and the pair of operations in the service with the same name `storage_class` will share the default value.
+As in the above examples, the service will support simulated dir behavior.
