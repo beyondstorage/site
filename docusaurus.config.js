@@ -33,7 +33,7 @@ module.exports = {
                 url: "/docs/go-storage/index",
                 repo: "go-storage",
                 description: "A vendor-neutral storage library for Golang: Write once, run on every storage service.",
-                version: "v4.6.0",
+                version: "4.6.0",
                 time: "2021-08-25"
             },
             {
@@ -41,7 +41,7 @@ module.exports = {
                 url: "/docs/beyond-tp/index",
                 repo: "beyond-tp",
                 description: "Neutral data migration service",
-                version: "v0.2.0",
+                version: "0.2.0",
                 time: "2021-04-14"
             },
             {
@@ -49,7 +49,7 @@ module.exports = {
                 url: "/docs/beyond-ctl/index",
                 repo: "beyond-ctl",
                 description: "command-line tool for all storage services.",
-                version: "v0.0.1",
+                version: "0.0.1",
                 time: "2021-08-27"
             },
             {
@@ -57,7 +57,7 @@ module.exports = {
                 url: "/docs/beyond-ftp/index",
                 repo: "beyond-ftp",
                 description: "FTP Server that based on go-storage",
-                version: "v0.1.0",
+                version: "0.1.0",
                 time: "2021-08-31"
             },
             {
@@ -65,7 +65,7 @@ module.exports = {
                 url: "/docs/beyond-fs/index",
                 repo: "beyond-fs",
                 description: "A high-performance, POSIX-ish File System based on beyondstorage/go-storage",
-                version: "v0.1.0",
+                version: "0.1.0",
                 time: "2021-08-09"
             },
         ]

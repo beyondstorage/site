@@ -30,7 +30,14 @@ const ProjectCard = (props) => {
                 {description}
             </p>
             <p>
-                {'Latest version ' + (version || '--') + ' released at ' + (time || '--')}
+                Latest version&nbsp;
+                <span>
+                    {(version || '--')}
+                </span>
+                &nbsp;released at&nbsp;
+                <span>
+                    {(time || '--')}
+                </span>
             </p>
        </div>
     );
@@ -54,7 +61,6 @@ function Home() {
         >
             <div className={styles.docs}>
                 <h1>DOCUMENTS</h1>
-                <p>Under Development</p>
                 <div className={styles.docsCardBox}>
                     <div className={styles.docsCardWrapper}>
                         {projects}
