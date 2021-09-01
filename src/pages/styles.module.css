@@ -217,12 +217,16 @@
 }
 .docsCardBox {
   width: 80%;
-  padding: 60px 0;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+}
+.docsCardWrapper{
+  padding: 60px 0;
+  display: inline-grid;
+  grid-template-columns: repeat(2, 50%)
 }
 .docsCard {
+  display: inline;
   box-sizing: border-box;
   position: relative;
   width: 500px;
@@ -263,7 +267,14 @@
 @media (max-width: 996px) {
   .docsCardBox {
     width: 100%;
-    padding: 30px 0;
+  }
+  .docsCardWrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .docsCard {
+      width: 96%;
+      margin: 10px 2%;
   }
   .docsCard p:first-of-type {
     padding-top: 0px;

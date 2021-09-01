@@ -31,27 +31,42 @@ module.exports = {
             {
                 name: "go-storage",
                 url: "/docs/go-storage/index",
-                description: 'A vendor-neutral storage library for Golang: Write once, run on every storage service.'
+                repo: "go-storage",
+                description: "A vendor-neutral storage library for Golang: Write once, run on every storage service.",
+                version: "v4.6.0",
+                time: "2021-08-25"
             },
             {
                 name: "BeyondTP",
                 url: "/docs/beyond-tp/index",
-                description: 'Neutral data migration service.'
+                repo: "beyond-tp",
+                description: "Neutral data migration service",
+                version: "v0.2.0",
+                time: "2021-04-14"
             },
-            // {
-            //     name: "BeyondCTL",
-            //     url: "/docs/beyond-ctl/index",
-            //     description: ''
-            // },
+            {
+                name: "BeyondCTL",
+                url: "/docs/beyond-ctl/index",
+                repo: "beyond-ctl",
+                description: "command-line tool for all storage services.",
+                version: "v0.0.1",
+                time: "2021-08-27"
+            },
             {
                 name: "BeyondFTP",
                 url: "/docs/beyond-ftp/index",
-                description: 'FTP Server that based on go-storage.'
+                repo: "beyond-ftp",
+                description: "FTP Server that based on go-storage",
+                version: "v0.1.0",
+                time: "2021-08-31"
             },
             {
                 name: "BeyondFS",
                 url: "/docs/beyond-fs/index",
-                description: 'A high-performance, POSIX-ish File System based on BeyondStorage / go-storage.'
+                repo: "beyond-fs",
+                description: "A high-performance, POSIX-ish File System based on beyondstorage/go-storage",
+                version: "v0.1.0",
+                time: "2021-08-09"
             },
         ]
     },

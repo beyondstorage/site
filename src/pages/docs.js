@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Link from '@docusaurus/Link';
 import Translate, {translate} from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -9,30 +9,29 @@ import Community from '@theme/Community';
 
 import styles from './styles.module.css';
 
-const flags = ['/img/flag_green.svg', '/img/flag_blue.svg', '/img/flag_red.svg', '/img/flag_purple.svg']
-
+const flags = ['/img/flag_green.svg', '/img/flag_blue.svg', '/img/flag_red.svg', '/img/flag_purple.svg'];
 const ProjectCard = (props) => {
     const {
         name,
         url,
+        index,
         description,
-        version = '0.1.0',
-        updateTime = '2021-08-09',
-        index
+        version,
+        time
     } = props;
 
     return (
        <div className={styles.docsCard}>
-           <div>
+            <div>
                 <img src={useBaseUrl(flags[index])} />
                 <a href={url}>{name}</a>
-           </div>
-           <p>
+            </div>
+            <p>
                 {description}
-           </p>
-           <p>
-                {'Latest version ' + version + ' released at ' + updateTime}
-           </p>
+            </p>
+            <p>
+                {'Latest version ' + (version || '--') + ' released at ' + (time || '--')}
+            </p>
        </div>
     );
 };
@@ -57,7 +56,9 @@ function Home() {
                 <h1>DOCUMENTS</h1>
                 <p>Under Development</p>
                 <div className={styles.docsCardBox}>
-                    {projects}
+                    <div className={styles.docsCardWrapper}>
+                        {projects}
+                    </div>
                 </div>
             </div>
         </Layout>
