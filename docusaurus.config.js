@@ -23,7 +23,6 @@ module.exports = {
     },
     onBrokenLinks: 'warn',
     customFields: {
-
     },
     themeConfig: {
         algolia: {

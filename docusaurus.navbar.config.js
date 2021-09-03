@@ -23,7 +23,7 @@ module.exports = {
         },
         {
             to: 'docs',
-            label: 'Documentation',
+            label: 'Docs',
             position: 'left',
             items: [
                 {label: 'General', to: '/docs/general/index'},
