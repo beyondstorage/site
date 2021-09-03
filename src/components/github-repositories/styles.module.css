@@ -1,0 +1,31 @@
+.title {
+  margin-top: 6.25rem;
+  text-align: center;
+}
+
+.subtitle {
+  margin-bottom: 3.75rem;
+  text-align: center;
+}
+
+.repositories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+
+  margin: 0 15.5555vw;
+}
+
+.project {
+  padding: 2rem;
+
+  border-radius: 1rem;
+  border: 1px solid rgba(203, 213, 225, 0.8);
+}
+
+@media (max-width: 996px) {
+  .repositories {
+    grid-template-columns: 1fr;
+    margin: 0 1rem;
+  }
+}
