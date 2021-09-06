@@ -68,6 +68,11 @@
   line-height: 1.5rem;
   font-weight: 500;
 }
+.docsCard p a {
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: rgba(49, 56, 62, 1);
+}
 
 .docsCard p:first-of-type {
   line-height: 1.5rem;

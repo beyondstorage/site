@@ -29,7 +29,7 @@ const GithubRepositories = ({ projects = [] }) => {
         <div className={styles.docsCardBox}>
           <div className={styles.docsCardWrapper}>
             {projects.map(
-              ({ name, description, pushed_at, tag_name, path }, index) => (
+              ({ name, description, pushed_at, tag_name, path, html_url }, index) => (
                 <div key={name} className={styles.docsCard}>
                   <div>
                     <img src={useBaseUrl(flags[index % 4])} />
@@ -38,7 +38,9 @@ const GithubRepositories = ({ projects = [] }) => {
                   <p>{description}</p>
                   <p>
                     Latest version&nbsp;
-                    <span>{tag_name || "v0.1.0"}</span>
+                    {
+                        tag_name ? <a href={html_url} target="_blank">{tag_name}</a> : <span>v0.1.0</span>
+                    }
                     &nbsp;released at&nbsp;
                     <span>{getTime(pushed_at) || "--"}</span>
                   </p>
