@@ -179,16 +179,14 @@ The name of current service, should be unique.
 
 [go-storage] has two namespace: `service` and `storage`.
 
-`namespace` COULD implement extra interfaces and features:
+`namespace` COULD implement extra interfaces:
 
 ```toml
 [namespace.storage]
-features = ["virtual_dir"]
 implement = ["multiparter"]
 ```
 
-- For features, they are defined in `features.toml`. We should check the feature manually when required.
-- For interfaces, we should also add related `UnimplementedMultiparter` stub into our `Storage` struct.
+- We should also add related `UnimplementedMultiparter` stub into our `Storage` struct.
 
 `namespace` MUST add `new` section to describe how to initiate this namespace:
 
