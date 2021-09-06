@@ -31,6 +31,10 @@
     "message": "Pager",
     "description": "The label for category Pager in sidebar docs"
   },
+  "sidebar.docs.category.StorageHTTPSigner": {
+    "message": "StorageHTTPSigner",
+    "description": "The label for category StorageHTTPSigner in sidebar docs"
+  },
   "sidebar.docs.category.Pairs": {
     "message": "Pairs",
     "description": "The label for category Pairs in sidebar docs"
