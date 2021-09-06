@@ -110,3 +110,101 @@
 .architecture img {
   min-width: var(--main-modules-width);
 }
+/* projects */
+
+.projects h1 {
+  display: inline-block;
+  margin-bottom: 60px;
+  line-height: 3.25rem;
+  padding-right: 2px;
+  font-size: 2.25rem;
+  background-image: url('/img/underline1.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.projectsContent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8.3333vw;
+}
+
+.projectsContent > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.projectsContent > div > img, .projectsContent > div > p {
+  margin-bottom: 32px;
+}
+.projectsContent > div > p {
+  min-height: 60px;
+}
+
+.projectsContent h2 {
+  margin-bottom: 20px;
+}
+
+.projectsContent ul {
+  flex-grow: 1;
+  width: 95%;
+  display: inline-block;
+  text-align: left;
+}
+
+.projectsContent ul li {
+  min-height: 70px;
+  margin-bottom: 24px;
+}
+
+.projectsContent a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 20px;
+
+  height: 32px;
+
+  color: #ffffff;
+
+  background: #31383E;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.projectsContent a:hover {
+  opacity: 0.8;
+}
+
+.projectsContent a img {
+  margin-left: 12px;
+}
+
+@media (max-width: 996px) {
+  .introductionContent, .projects, .projectsContent {
+    display: block;
+  }
+  .projectsContent ul {
+    width: 60%;
+  }
+  .projectsContent ul li {
+    min-height: 30px;
+  }
+  .projectsContent > div > p {
+    min-height: 30px;
+  }
+  .projectsContent a {
+      margin-bottom: 3.75rem;
+  }
+
+  .introductionContent > div {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .projectsContent ul {
+    width: 80%;
+  }
+}
