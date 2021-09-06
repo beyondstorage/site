@@ -41,6 +41,11 @@
     --ifm-navbar-padding-horizontal: 16px;
   }
 }
+@media (max-width: 1480px) {
+  .navbar__brand{
+      margin-right: 1.75rem;
+  }
+}
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);

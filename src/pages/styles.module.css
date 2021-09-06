@@ -9,7 +9,7 @@
   display: inline-block;
   padding-right: 2px;
 
-  background-image: url('/img/underline.svg');
+  background-image: url("/img/underline.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -40,7 +40,6 @@
   min-width: var(--main-modules-width);
 }
 
-
 /* introduction */
 .introduction {
   width: var(--main-modules-width);
@@ -54,7 +53,7 @@
   padding: 0 12px;
   height: 44px;
 
-  background: #F1E759;
+  background: #f1e759;
   border-radius: 2px;
 
   font-weight: 300;
@@ -87,20 +86,21 @@
 }
 
 .introductionOpen {
-  background-color: #2B99FF;
+  background-color: #2b99ff;
 }
 
 .introductionNeutral {
-  background-color: #2DD482;
+  background-color: #2dd482;
 }
 
 .introductionUserCentrality {
-  background-color: #8D67FD;
+  background-color: #8d67fd;
 }
 
 /* architecture */
 
-.architecture, .projects {
+.architecture,
+.projects {
   display: block;
   width: var(--main-modules-width);
   margin: 0px auto var(--main-modules-gap);
@@ -110,7 +110,6 @@
 .architecture img {
   min-width: var(--main-modules-width);
 }
-
 /* projects */
 
 .projects h1 {
