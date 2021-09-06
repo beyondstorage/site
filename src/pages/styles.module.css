@@ -195,8 +195,17 @@
   .projectsContent > div > p {
     min-height: 30px;
   }
+  .projectsContent a {
+      margin-bottom: 3.75rem;
+  }
 
   .introductionContent > div {
     margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .projectsContent ul {
+    width: 80%;
   }
 }
