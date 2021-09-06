@@ -37,9 +37,9 @@ const GithubRepositories = ({ projects = [] }) => {
                   </div>
                   <p>{description}</p>
                   <p>
-                    Latest version&nbsp;
-                    <a href={html_url} target="_blank">{tag_name || "v0.1.0"}</a>
-                    &nbsp;released at&nbsp;
+                    Latest {tag_name ? "version" : "update"}&nbsp;
+                    <a href={html_url} target="_blank">{tag_name ? tag_name : "master"}</a>
+                    &nbsp;{tag_name ? "version" : "updated"} at&nbsp;
                     <span>{getTime(pushed_at) || "--"}</span>
                   </p>
                 </div>
