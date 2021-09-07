@@ -145,7 +145,7 @@
 .footer .footer-link-shared {
   display: grid;
   grid-template-columns: repeat(auto-fill, 16px);
-  grid-gap: 20px;
+  grid-gap: 27px;
   align-items: center;
   height: 2rem;
 }

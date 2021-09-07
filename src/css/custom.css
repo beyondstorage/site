@@ -53,6 +53,9 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+.footer-title-icon{
+  min-height: 60px
+}
 
 @import "./layout.css";
 
