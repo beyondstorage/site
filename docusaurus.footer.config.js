@@ -1,7 +1,6 @@
 module.exports = {
     links: [
         {
-            // title: 'BeyondStorage',
             items: [
                 {
                     html: `
