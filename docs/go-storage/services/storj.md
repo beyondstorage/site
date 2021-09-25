@@ -29,11 +29,11 @@ import (
 )
 
 func main() {
-	store, err := services.NewStoragerFromString("storj://bucket_name/path/to/workdir")
+	store, err := services.NewStoragerFromString("storj://<bucket_name>/<work_dir>?credential=apikey:<apikey_value>")
 	if err != nil {
 		log.Fatal(err)
 	}
-	
+
 	// Write data from io.Reader into hello.txt
 	n, err := store.Write("hello.txt", r, length)
 }
