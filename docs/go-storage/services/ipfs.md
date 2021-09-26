@@ -13,6 +13,7 @@
 | Name | Required | Comments |
 | ---- | -------- | -------- |
 | [endpoint](../pairs/endpoint.md) | Y | endpoint |
+| gateway                          | Y | gateway |
 | [work_dir](../pairs/work_dir.md) | N | work dir |
 
 #### Examples
@@ -25,7 +26,7 @@ import (
 	"github.com/beyondstorage/go-storage/v4/services"
 )
 
-store, err := services.NewStoragerFromString("ipfs:///<work_dir>?endpoint=<ipfs_http_api_endpoint>") // endpoint example: http:127.0.0.1:5001
+store, err := services.NewStoragerFromString("ipfs:///<work_dir>?endpoint=<ipfs_http_api_endpoint>&gateway=<ipfs_http_gateway>") // endpoint example: http:127.0.0.1:5001
 if err != nil {
     log.Fatalf("ipfs new service: %v", err)
 }
@@ -41,3 +42,5 @@ This service implements following interfaces:
 - [Copier](../operations/copy.md)
 
 - [Mover](../operations/move.md)
+
+- [QuerySignHTTPRead](../operations/storage_http_signer/query_sign_http_read.md)
