@@ -13,6 +13,7 @@
 | Name | Required | Comments |
 | ---- | -------- | -------- |
 | [credential](go-storage/pairs/credential.md) | Y | credential |
+| [name](go-storage/pairs/name.md) | Y | bucket name |
 | [work_dir](go-storage/pairs/work_dir.md) | N | work dir |
 
 #### Examples
