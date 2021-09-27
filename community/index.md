@@ -34,10 +34,10 @@ We host our matrix server on `https://matrix.org`.
 
 We have linked our matrix room to slack. Please join our slack via <https://join.slack.com/t/aos-wg/shared_invite/zt-pf4yk96u-7znnJVYpQvY57C3rRrbDPg> <!-- Need Update. -->
 
-#### WeChat
+#### WeChat Official Accounts
 
-Scan the QR code with your WeChat to join the BeyondStorage developer group.
-![](/img/wechat-qr.jpg)
+Scan the QR code with your WeChat, then you can access to community updates on your cell phone，and join the BeyondStorage developer group！
+![](/img/beyond-storage-qr.jpg)
 
 #### Discord
 
