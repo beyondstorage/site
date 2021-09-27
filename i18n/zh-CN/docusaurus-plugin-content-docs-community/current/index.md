@@ -36,7 +36,10 @@ We have linked our matrix room to slack. We have linked our matrix room to slack
 
 #### WeChat Official Accounts
 
-Scan the QR code with your WeChat, then you can access to community updates on your cell phone，and join the BeyondStorage developer group！ ![](/img/beyond-storage-qr.jpg)
+Scan the QR code with your WeChat, then you can access to community updates on your cell phone，and join the BeyondStorage developer group！
+
+
+![](/img/beyond-storage-qr.jpg)
 
 #### Discord
 
