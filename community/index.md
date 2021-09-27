@@ -39,6 +39,10 @@ We have linked our matrix room to slack. Please join our slack via <https://join
 Scan the QR code with your WeChat to join the BeyondStorage developer group.
 ![](/img/wechat-qr.jpg)
 
+#### WeChat Official Accounts
+Scan the QR code with your WeChat, then you can access to community updates on your cell phone!
+![](/img/beyond-storage-qr.jpg)
+
 #### Discord
 
 We have linked our matrix room to discord.
