@@ -2,31 +2,38 @@
 
 BeyondCTL 支持在存储服务之间复制文件和文件夹。
 
-> CopyDir 支持正在开发中，请查看我们的 [跟踪问题](https://github.com/beyondstorage/beyond-ctl/issues/3) 了解更多信息。
-
 ```shell
 NAME:
-   beyondctl cp - copy file from source storager to target storager
+   byctl cp - copy file from source storager to target storager
 
 USAGE:
-   beyondctl cp [command options] [source] [target]
+   byctl cp [command options] [source] [target]
 
 OPTIONS:
    --multipart-threshold value  Specify multipart threshold. If source file size is larger than this value, beyondctl will use multipart method to copy file. (default: 1GB) [$BEYOND_CTL_MULTIPART_THRESHOLD]
    --workers value              Specify the workers number (default: 4) [$BEYOND_CTL_WORKERS]
    --read-speed-limit value     Specify speed limit for read I/O operations, for example, 1MB, 10mb, 3GiB. [$BEYOND_CTL_READ_SPEED_LIMIT]
    --write-speed-limit value    Specify speed limit for write I/O operations, for example, 1MB, 10mb, 3GiB. [$BEYOND_CTL_WRITE_SPEED_LIMIT]
-   --help, -h                   show help (default: false) If source file size is larger than this value, beyondctl will use multipart method to copy file. (default: 1GB) [$BEYOND_CTL_MULTIPART_THRESHOLD]
-   --workers value              Specify the workers number (default: 4) [$BEYOND_CTL_WORKERS]
-   --read-speed-limit value     Specify speed limit for read I/O operations, for example, 1MB, 10mb, 3GiB. [$BEYOND_CTL_READ_SPEED_LIMIT]
-   --write-speed-limit value    Specify speed limit for write I/O operations, for example, 1MB, 10mb, 3GiB. [$BEYOND_CTL_WRITE_SPEED_LIMIT]
+   --recursive, -r, -R          copy directories recursively (default: false)
    --help, -h                   show help (default: false)
 ```
 
 例如：
 
 ```shell
-beyondctl cp test.mp4 example:/test.mp4
+byctl cp test.mp4 example:/test.mp4
+```
+
+## Copy directory
+
+BeyondCTL supports copy directory.
+
+By default, BeyondCTL does not switch to the copy directory, we can specify the copy directory with `--recursive`, `-r` or `-R`.
+
+For example, we copy the local directory `testDir` to the service specified by profile example.
+
+```shell
+byctl cp -r testDir example:/testDir
 ```
 
 ## 通过分段上传加速复制
@@ -38,7 +45,7 @@ By default, BeyondCTL will switch to `multipart` method while the source file is
 例如， 我们可以将阈值降低为 `100MB`  以强制 beyondctl 为大于 `100MB` 的文件使用分段上传。
 
 ```shell
-beyondctl cp --multipart-threshold=100MiB test.mp4 example:/test.mp4
+byctl cp --multipart-threshold=100MiB test.mp4 example:/test.mp4
 ```
 
 ## 速度限制
@@ -48,7 +55,7 @@ beyondctl cp --multipart-threshold=100MiB test.mp4 example:/test.mp4
 例如，我们可以将全局读取速度限制为 1 MiB。
 
 ```shell
-beyondctl cp --read-speed-limit=1MiB test.mp4 example:/test.mp4
+byctl cp --read-speed-limit=1MiB test.mp4 example:/test.mp4
 ```
 
 ## 限制并发数量
@@ -60,5 +67,5 @@ BeyondCTL 默认采取并发的方式复制文件。 我们可以通过 `--worke
 我们可以将工人人数增加到 `10`：
 
 ```shell
-beyondctl cp --workers=10 test.mp4 example:/test.mp4
+byctl cp --workers=10 test.mp4 example:/test.mp4
 ```

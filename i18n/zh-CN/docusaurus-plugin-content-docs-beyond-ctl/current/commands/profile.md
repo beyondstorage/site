@@ -4,10 +4,10 @@ BeyondCTL 支持多个配置方案，以便我们能够在不同的服务之间�
 
 ```shell
 NAME:
-   beyondctl profile - manage profile in config file
+   byctl profile - manage profile in config file
 
 USAGE:
-   beyondctl profile command [command options] [arguments...]
+   byctl profile command [command options] [arguments...]
 
 NAME:
    beyondctl profile - manage profile in config file
@@ -27,10 +27,10 @@ OPTIONS:
 
 ## 添加新配置文件
 
-我们可以使用 `beyondctl profile add` 来通过连接字符串添加新配置文件。
+We can use `byctl profile add` to add new profiles via connection string.
 
 ```shell
-beyondctl profile add example s3://<bucketname>/path?credential=hmac:<access_key>:<secret_key>&endpoint=https:<example.com>&location=<region>
+byctl profile add example s3://<bucketname>/path?credential=hmac:<access_key>:<secret_key>&endpoint=https:<example.com>&location=<region>
 ```
 
 > 要了解更多关于连接字符串的信息，请参阅 [连接字符串文档](/docs/go-storage/operations/index)。
@@ -45,16 +45,16 @@ BEYOND_CTL_PROFILE_EXAMPLE=s3://<bucketname>/path?credential=hmac:<access_key>:<
 
 ## 列出配置文件
 
-我们可以使用 `beyondctl profile list` 来列出已经添加的配置文件。
+We can use `byctl profile list` to list profiles that already added.
 
 ```shell
-beyondctl profile list
+byctl profile list
 ```
 
 ## 删除配置文件
 
-我们可以使用 `beyondctl profile remove` 来删除指定的配置文件。
+We can use `byctl profile remove` to remove specified profile.
 
 ```shell
-beyondctl profile remove example
+byctl profile remove example
 ```
