@@ -7,9 +7,9 @@ sidebar_position: 1
 
 ```shell
 # Create a new profile if we don't have one.
-beyondctl profile add example s3://<bucketname>/path?credential=hmac:<access_key>:<secret_key>&endpoint=https:<example.com>&location=<region>
+byctl profile add example s3://<bucketname>/path?credential=hmac:<access_key>:<secret_key>&endpoint=https:<example.com>&location=<region>
 # Copy local file `test.mp4` to the service specified by profile example. 
-beyondctl cp test.mp4 example:/test.mp4
+byctl cp test.mp4 example:/test.mp4
 ```
 
 ## Features

@@ -4,10 +4,10 @@ BeyondCTL support multiple profiles so that we can switch between different serv
 
 ```shell
 NAME:
-   beyondctl profile - manage profile in config file
+   byctl profile - manage profile in config file
 
 USAGE:
-   beyondctl profile command [command options] [arguments...]
+   byctl profile command [command options] [arguments...]
 
 COMMANDS:
    add      add profile [name] [connection_string]
@@ -21,10 +21,10 @@ OPTIONS:
 
 ## Add new profile
 
-We can use `beyondctl profile add` to add new profiles via connection string.
+We can use `byctl profile add` to add new profiles via connection string.
 
 ```shell
-beyondctl profile add example s3://<bucketname>/path?credential=hmac:<access_key>:<secret_key>&endpoint=https:<example.com>&location=<region>
+byctl profile add example s3://<bucketname>/path?credential=hmac:<access_key>:<secret_key>&endpoint=https:<example.com>&location=<region>
 ```
 
 > To know more about connection string, please refer to [connection string docs](/docs/go-storage/operations/index).
@@ -39,16 +39,16 @@ The profile will not be persisted in config file which is suitable for running i
 
 ## List profiles
 
-We can use `beyondctl profile list` to list profiles that already added.
+We can use `byctl profile list` to list profiles that already added.
 
 ```shell
-beyondctl profile list
+byctl profile list
 ```
 
 ## Remove profile
 
-We can use `beyondctl profile remove` to remove specified profile.
+We can use `byctl profile remove` to remove specified profile.
 
 ```shell
-beyondctl profile remove example
+byctl profile remove example
 ```
