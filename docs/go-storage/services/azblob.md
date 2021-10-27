@@ -2,7 +2,7 @@
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-azblob>
+<https://go.beyondstorage.io/services/azblob>
 
 ## Config
 
@@ -21,8 +21,8 @@ Init servicer (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-azblob/v3"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/azblob/v3"
+	"go.beyondstorage.io/v5/services"
 )
 
 srv, err := services.NewServicerFromString("azblob://?credential=hmac:<account_name>:<account_key>&endpoint=https:<account_name>.<endpoint_suffix>")
@@ -46,8 +46,8 @@ Init storager (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-azblob/v3"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/azblob/v3"
+	"go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("azblob://<container_name>/<work_dir>?credential=hmac:<account_name>:<account_key>&endpoint=https:<account_name>.<endpoint_suffix>")

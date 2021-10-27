@@ -2,7 +2,7 @@
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-dropbox>
+<https://go.beyondstorage.io/services/dropbox>
 
 ## Config
 
@@ -21,8 +21,8 @@ Init storager (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-dropbox/v3"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/dropbox/v3"
+	"go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("dropbox:///<work_dir>?credential=hmac:<account_name>:<account_key>")

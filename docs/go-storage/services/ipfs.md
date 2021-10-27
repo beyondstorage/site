@@ -2,7 +2,7 @@
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-ipfs>
+<https://go.beyondstorage.io/services/ipfs>
 
 ## Config
 
@@ -22,8 +22,8 @@ Init storager (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-ipfs"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/ipfs"
+	"go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("ipfs:///<work_dir>?endpoint=<ipfs_http_api_endpoint>&gateway=<ipfs_http_gateway>") // endpoint example: http:127.0.0.1:5001

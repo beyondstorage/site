@@ -2,7 +2,7 @@
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-qingstor>
+<https://go.beyondstorage.io/services/qingstor>
 
 ## Configure
 
@@ -21,8 +21,8 @@ Init servicer (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-qingstor/v3"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/qingstor/v4"
+	"go.beyondstorage.io/v5/services"
 )
 
 srv, err := services.NewServicerFromString("qingstor://?credential=hmac:access_key_id:secret_access_key&endpoint=https:qingstor.com")
@@ -46,8 +46,8 @@ Init storager (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-qingstor/v3"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/qingstor/v3"
+	"go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("qingstor://<bucket_name>/path/to/workdir?credential=hmac:access_key_id:secret_access_key&endpoint=https:qingstor.com")

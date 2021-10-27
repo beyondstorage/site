@@ -23,11 +23,11 @@ package main
 import (
 	"log"
 
-	"github.com/beyondstorage/go-storage/v4/services"
-	"github.com/beyondstorage/go-storage/v4/types"
+	"go.beyondstorage.io/v5/services"
+	"go.beyondstorage.io/v5/types"
 
 	// Add s3 support
-	_ "github.com/beyondstorage/go-service-s3/v2"
+	_ "go.beyondstorage.io/services/s3/v2"
 )
 
 func main() {
