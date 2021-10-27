@@ -2,7 +2,7 @@
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-gdrive>
+<https://go.beyondstorage.io/services/gdrive>
 
 ## Config
 
@@ -22,9 +22,9 @@ Init storager (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-    _ "github.com/beyondstorage/go-service-gdrive"
-    ps "github.com/beyondstorage/go-storage/v4/pairs"
-    "github.com/beyondstorage/go-storage/v4/services"
+    _ "go.beyondstorage.io/services/gdrive"
+    ps "go.beyondstorage.io/v5/pairs"
+    "go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("gdrive://?name=<a_meaningful_name>&credential=file:<abs_path_of_credential>")
