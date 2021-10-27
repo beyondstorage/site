@@ -12,10 +12,11 @@
     "i18n": "docusaurus write-translations"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.6",
-    "@docusaurus/preset-classic": "2.0.0-beta.6",
+    "@docusaurus/core": "2.0.0-beta.8",
+    "@docusaurus/preset-classic": "2.0.0-beta.8",
     "@mdx-js/react": "^1.6.22",
     "axios": "^0.24.0",
+    "browserslist": "^4.17.5",
     "clsx": "^1.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
