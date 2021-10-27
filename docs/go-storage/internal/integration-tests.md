@@ -48,7 +48,7 @@ import (
    "os"
    "testing"
 
-   tests "github.com/beyondstorage/go-integration-test/v4"
+   tests "go.beyondstorage.io/v5/tests"
 )
 
 func TestStorage(t *testing.T) {

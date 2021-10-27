@@ -1,3 +1,3 @@
 ## Project
 
-<https://github.com/beyondstorage/go-service-onedrive>
+<https://go.beyondstorage.io/services/onedrive>

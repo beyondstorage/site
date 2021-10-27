@@ -57,8 +57,8 @@ To use a service, do not forget to import the corresponding `go-service-*` packa
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-fs/v3"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/fs/v3"
+	"go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("fs:///tmp")
@@ -74,9 +74,9 @@ Alternatively, you can initialize directly with pairs, if you want to
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-fs/v3"
-    "github.com/beyondstorage/go-storage/v4/pairs"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/fs/v3"
+    "go.beyondstorage.io/v5/pairs"
+	"go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStorager("fs", pairs.WithWorkDir("/tmp"))

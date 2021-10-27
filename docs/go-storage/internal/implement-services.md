@@ -4,7 +4,7 @@ title: Implement Services
 
 ## Step-by-Step guide
 
-Firstly, click [Use this template](https://github.com/beyondstorage/go-service-example/generate) to generate a new project.
+Firstly, click [Use this template](https://go.beyondstorage.io/services/example/generate) to generate a new project.
 
 Secondly, change `name` in `service.toml`, also update package names in the same directory.
 
@@ -82,12 +82,12 @@ required = ["credential"]
 
 ### iowrap
 
-[go-storage] provides an [iowrap](https://pkg.go.dev/github.com/beyondstorage/go-storage/v4/pkg/iowrap) package. We can use the `CallbackifyReader`, `LimitedReadCloser` and so on directly instead of implementing by ourselves.
+[go-storage] provides an [iowrap](https://pkg.go.dev/go.beyondstorage.io/v5/pkg/iowrap) package. We can use the `CallbackifyReader`, `LimitedReadCloser` and so on directly instead of implementing by ourselves.
 
 ### content md5
 
 [go-storage] encourage user to calculate the hash by themselves, so we need to disable any kind of auto content md5 check to prevent unintended reader content consumption.
 
-Reference: [S3DisableContentMD5Validation in go-service-s3](https://github.com/beyondstorage/go-service-s3/pull/88#discussion_r631847842)
+Reference: [S3DisableContentMD5Validation in go-service-s3](https://go.beyondstorage.io/services/s3/pull/88#discussion_r631847842)
 
 [go-storage]: https://github.com/beyondstorage/go-storage

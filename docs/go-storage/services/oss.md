@@ -2,7 +2,7 @@
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-oss>
+<https://go.beyondstorage.io/services/oss>
 
 ## Config
 
@@ -21,8 +21,8 @@ Init servicer (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-oss/v3"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/oss/v3"
+	"go.beyondstorage.io/v5/services"
 )
 
 srv, err := services.NewServicerFromString("oss://?credential=hmac:<account_name>:<account_key>&endpoint=https:<location>.aliyuncs.com")
@@ -46,8 +46,8 @@ Init storager (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-oss/v3"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/oss/v3"
+	"go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("oss://<container_name>/<work_dir>?credential=hmac:<account_name>:<account_key>&endpoint=https:<location>.aliyuncs.com")

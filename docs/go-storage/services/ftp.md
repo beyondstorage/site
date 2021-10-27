@@ -2,7 +2,7 @@
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-ftp>
+<https://go.beyondstorage.io/services/ftp>
 
 ## Config
 
@@ -22,9 +22,9 @@ Init storager (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-    _ "github.com/beyondstorage/go-service-ftp"
-    ps "github.com/beyondstorage/go-storage/v4/pairs"
-    "github.com/beyondstorage/go-storage/v4/services"
+    _ "go.beyondstorage.io/services/ftp"
+    ps "go.beyondstorage.io/v5/pairs"
+    "go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("ftp://<work_dir>?credential=basic:<user>:<password>&endpoint=tcp:<host>:<port>")
