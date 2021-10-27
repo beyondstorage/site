@@ -2,7 +2,7 @@
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-minio>
+<https://go.beyondstorage.io/services/minio>
 
 ## Config
 
@@ -21,8 +21,8 @@ Init servicer (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-    _ "github.com/beyondstorage/go-service-minio"
-    "github.com/beyondstorage/go-storage/v4/services"
+    _ "go.beyondstorage.io/services/minio"
+    "go.beyondstorage.io/v5/services"
 )
 
 srv, err := services.NewServicerFromString("minio://?credential=hmac:<access_key>:<secret_key>&endpoint=https:<host>:<port>")
@@ -46,8 +46,8 @@ Init storager (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-    _ "github.com/beyondstorage/go-service-minio"
-    "github.com/beyondstorage/go-storage/v4/services"
+    _ "go.beyondstorage.io/services/minio"
+    "go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("minio://<bucket_name>/<work_dir>?credential=hmac:<access_key>:<secret_key>&endpoint=https:<host>:<port>")
