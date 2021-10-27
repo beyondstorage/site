@@ -2,7 +2,7 @@
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-gcs>
+<https://go.beyondstorage.io/services/gcs>
 
 ## Config
 
@@ -20,8 +20,8 @@ Init servicer (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-    _ "github.com/beyondstorage/go-service-gcs/v3"
-    "github.com/beyondstorage/go-storage/v4/services"
+    _ "go.beyondstorage.io/services/gcs/v3"
+    "go.beyondstorage.io/v5/services"
 )
 
 srv, err := services.NewServicerFromString("gcs://?credential=file:<absolute_path_to_token_file>")
@@ -46,8 +46,8 @@ Init storager (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-    _ "github.com/beyondstorage/go-service-gcs/v3"
-    "github.com/beyondstorage/go-storage/v4/services"
+    _ "go.beyondstorage.io/services/gcs/v3"
+    "go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("gcs://<bucket_name>/<work_dir>?credential=file:<absolute_path_to_token_file>&project_id=<google_cloud_project_id>")
