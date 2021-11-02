@@ -2,7 +2,7 @@
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-storj>
+<https://go.beyondstorage.io/services/storj>
 
 ## Config
 
@@ -25,8 +25,8 @@ Init storager (see [this page](go-storage/operations/index.md#how-to-initialize-
 import (
     "log"
 
-    _ "github.com/beyondstorage/go-service-storj"
-    "github.com/beyondstorage/go-storage/v4/services"
+    _ "go.beyondstorage.io/services/storj"
+    "go.beyondstorage.io/v5/services"
 )
 
 func main() {

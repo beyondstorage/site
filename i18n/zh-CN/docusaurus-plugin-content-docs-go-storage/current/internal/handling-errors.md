@@ -35,9 +35,9 @@ In `errors.As(originErr, &targetErr)`, the type of `targetErr` should be the `st
 
 ```go 
 import (
-    s3 "github.com/beyondstorage/go-service-s3"
-    "github.com/beyondstorage/go-storage/v4/pairs"
-    "github.com/beyondstorage/go-storage/v4/services"
+    s3 "go.beyondstorage.io/services/s3"
+    "go.beyondstorage.io/v5/pairs"
+    "go.beyondstorage.io/v5/services"
 )
 
 // ...

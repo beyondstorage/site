@@ -2,7 +2,7 @@
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-hdfs>
+<https://go.beyondstorage.io/services/hdfs>
 
 ## Config
 
@@ -21,9 +21,9 @@ Init storager (see [this page](go-storage/operations/index.md#how-to-initialize-
 
 ```go
 import (
-    _ "github.com/beyondstorage/go-service-hdfs"
-    ps "github.com/beyondstorage/go-storage/v4/pairs"
-    "github.com/beyondstorage/go-storage/v4/services"
+    _ "go.beyondstorage.io/services/hdfs"
+    ps "go.beyondstorage.io/v5/pairs"
+    "go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("hdfs:///<work_dir>?endpoint=tcp:<host>:<port>>") // endpoint example: tcp:127.0.0.1:9000

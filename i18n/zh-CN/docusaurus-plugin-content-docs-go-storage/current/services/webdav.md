@@ -1,3 +1,3 @@
 ## Project
 
-<https://github.com/beyondstorage/go-service-webdav>
+<https://go.beyondstorage.io/services/webdav>
