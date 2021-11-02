@@ -2,7 +2,7 @@
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-bos>
+<https://go.beyondstorage.io/services/bos>
 
 ## Config
 
@@ -26,8 +26,8 @@ Init servicer (see [this page](../operations/index.md) for details)
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-bos"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/bos/v2"
+	"go.beyondstorage.io/v5/services"
 )
 
 srv, err := services.NewServicerFromString("bos://?credential=hmac:access_key_id:secret_access_key&endpoint=https:<region>.bcebos.com")
@@ -40,8 +40,8 @@ Init storager (see [this page](../operations/index.md) for details)
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-bos"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/bos"
+	"go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("bos://<bucket_name>/path/to/workdir?credential=hmac:access_key_id:secret_access_key&endpoint=https:<region>.bcebos.com")

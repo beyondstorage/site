@@ -2,7 +2,7 @@
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-uss>
+<https://go.beyondstorage.io/services/uss>
 
 ## Config
 
@@ -21,8 +21,8 @@ Init storager (see [this page](../operations/index.md) for details)
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-uss/v3"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/uss/v3"
+	"go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("uss://<bucket_name>/<work_dir>?credential=hmac:<account_name>:<account_key>&endpoint=https:<domain>")

@@ -2,7 +2,7 @@ Local file system
 
 ## Project
 
-<https://github.com/beyondstorage/go-service-fs>
+<https://go.beyondstorage.io/services/fs>
 
 ## Config
 
@@ -20,8 +20,8 @@ Init storager (see [this page](../operations/index.md#how-to-initialize-a-servic
 
 ```go
 import (
-	_ "github.com/beyondstorage/go-service-fs/v3"
-	"github.com/beyondstorage/go-storage/v4/services"
+	_ "go.beyondstorage.io/services/fs/v4"
+	"go.beyondstorage.io/v5/services"
 )
 
 store, err := services.NewStoragerFromString("fs:///<work_dir>")
