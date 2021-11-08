@@ -1,6 +1,5 @@
 ---
-title: Introduction
-sidebar_position: 1
+title: Introduction sidebar_position: 1
 ---
 
 [BeyondCTL](https://github.com/beyondstorage/beyond-ctl) is a command-line tool for all storage services.
@@ -18,6 +17,11 @@ For now, we support following features:
 
 - [profile](./commands/profile.md): Multiple profile support.
 - [cp](./commands/cp.md): Copy file from source to destination.
+- [rm](./commands/rm.md): Remove file from storager.
+- [stat](./commands/stat.md): get file or storage info.
+- [tee](./commands/tee.md): pipe data from stdin into storage services.
+- [cat](./commands/cat.md): pipe data from storage services into stdout.
+- [ls](./commands/ls.md)
 
 ## Call for help!
 
