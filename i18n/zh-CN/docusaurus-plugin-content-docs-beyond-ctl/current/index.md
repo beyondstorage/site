@@ -18,6 +18,11 @@ byctl cp test.mp4 example:/test.mp4
 
 - [profile](./commands/profile.md): 多个配置文件支持。
 - [cp](./commands/cp.md): 将文件从来源复制到目的地。
+- [rm](./commands/rm.md): Remove file from storager.
+- [stat](./commands/stat.md): Get file or storage info.
+- [tee](./commands/tee.md): Pipe data from stdin into storage services.
+- [cat](./commands/cat.md): Pipe data from storage services into stdout.
+- [ls](./commands/ls.md): List dirs and files from storage services.
 
 ## 呼叫帮助！
 
