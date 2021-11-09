@@ -1,5 +1,6 @@
 ---
-title: Introduction sidebar_position: 1
+title: Introduction 
+sidebar_position: 1
 ---
 
 [BeyondCTL](https://github.com/beyondstorage/beyond-ctl) is a command-line tool for all storage services.
