@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Introduction 
 sidebar_position: 1
 ---
 
@@ -18,6 +18,11 @@ For now, we support following features:
 
 - [profile](./commands/profile.md): Multiple profile support.
 - [cp](./commands/cp.md): Copy file from source to destination.
+- [rm](./commands/rm.md): Remove file from storager.
+- [stat](./commands/stat.md): Get file or storage info.
+- [tee](./commands/tee.md): Pipe data from stdin into storage services.
+- [cat](./commands/cat.md): Pipe data from storage services into stdout.
+- [ls](./commands/ls.md): List dirs and files from storage services.
 
 ## Call for help!
 
