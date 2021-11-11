@@ -31,3 +31,14 @@ byctl cat example:testCat | byctl tee another:testCat
 
 Executing the above command will upload the contents of the file `testCat` in service `example` to the file `testCat` in service `another`.
 
+## 限制并发数量
+
+BeyondCTL support concurrency cat be default. 我们可以通过 `--workers` 控制并行数量。
+
+默认情况下，我们将有 `4` 工作者。
+
+我们可以将工人人数增加到 `10`：
+
+```shell
+byctl cat --workers=10 example:testCat
+```
