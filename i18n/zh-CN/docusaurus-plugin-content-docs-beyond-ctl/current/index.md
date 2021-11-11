@@ -23,6 +23,8 @@ byctl cp test.mp4 example:/test.mp4
 - [tee](./commands/tee.md): Pipe data from stdin into storage services.
 - [cat](./commands/cat.md): Pipe data from storage services into stdout.
 - [ls](./commands/ls.md): List dirs and files from storage services.
+- [sign](./commands/sign.md): Get the signed URL by the source object.
+- [mv](./commands/mv.md): Move file from source storager to target storager.
 
 ## 呼叫帮助！
 
