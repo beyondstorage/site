@@ -46,3 +46,14 @@ If we know the exact size of the file, we can set `-expected-size` to accurately
 cat exampleTee | byctl tee --expected-size=2MiB example:testTee
 ```
 
+## Control concurrency via Workers
+
+BeyondCTL support concurrency tee be default. We can control the concurrent workers by `--workers`.
+
+By default, we will have `4` workers.
+
+We can increase the workers number to `10` via:
+
+```shell
+byctl tee --workers=10 example:testTee
+```
