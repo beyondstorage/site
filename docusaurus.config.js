@@ -156,7 +156,7 @@ module.exports = {
                 projects: [
                     {
                         name: "go-storage",
-                        path: "/docs/go-storage/index",
+                        path: "/docs/go-storage",
                         json_urls: [
                             'https://api.github.com/repos/beyondstorage/go-storage',
                             'https://api.github.com/repos/beyondstorage/go-storage/releases/latest',
@@ -164,7 +164,7 @@ module.exports = {
                     },
                     {
                         name: "BeyondTP",
-                        path: "/docs/beyond-tp/index",
+                        path: "/docs/beyond-tp",
                         json_urls: [
                             'https://api.github.com/repos/beyondstorage/beyond-tp',
                             'https://api.github.com/repos/beyondstorage/beyond-tp/releases/latest',
@@ -172,7 +172,7 @@ module.exports = {
                     },
                     {
                         name: "BeyondCTL",
-                        path: "/docs/beyond-ctl/index",
+                        path: "/docs/beyond-ctl",
                         json_urls: [
                             'https://api.github.com/repos/beyondstorage/beyond-ctl',
                             'https://api.github.com/repos/beyondstorage/beyond-ctl/releases/latest',
@@ -180,7 +180,7 @@ module.exports = {
                     },
                     {
                         name: "BeyondFS",
-                        path: "/docs/beyond-fs/index",
+                        path: "/docs/beyond-fs",
                         json_urls: [
                             'https://api.github.com/repos/beyondstorage/beyond-fs',
                             'https://api.github.com/repos/beyondstorage/beyond-fs/releases/latest',
@@ -188,7 +188,7 @@ module.exports = {
                     },
                     {
                         name: "BeyondFTP",
-                        path: "/docs/beyond-ftp/index",
+                        path: "/docs/beyond-ftp",
                         json_urls: [
                             'https://api.github.com/repos/beyondstorage/beyond-ftp',
                             'https://api.github.com/repos/beyondstorage/beyond-ftp/releases/latest',
