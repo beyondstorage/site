@@ -1,1 +1,0 @@
-`interceptor` is used to intercept an operation.

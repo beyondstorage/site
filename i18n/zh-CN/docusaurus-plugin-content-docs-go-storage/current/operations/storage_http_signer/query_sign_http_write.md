@@ -1,1 +1,0 @@
-`QuerySignHTTPWrite` is used to write data into a file by using query parameters to authenticate requests.

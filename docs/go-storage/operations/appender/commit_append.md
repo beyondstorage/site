@@ -1,1 +1,0 @@
-`commit_append` is used to finish an append procedure.

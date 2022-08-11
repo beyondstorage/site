@@ -1,1 +1,0 @@
-`combine_block` is used to combine blocks into a valid object.
