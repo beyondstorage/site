@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[1029],{9184:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/weekly-report","name":"weekly-report","count":21,"permalink":"/blog/tags/weekly-report"}')}}]);

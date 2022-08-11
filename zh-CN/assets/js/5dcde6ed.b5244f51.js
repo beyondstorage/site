@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[6134],{981:function(s){s.exports=JSON.parse('{"allTagsPath":"/zh-CN/blog/tags","slug":"/zh-CN/blog/tags/updates","name":"updates","count":24,"permalink":"/zh-CN/blog/tags/updates"}')}}]);
