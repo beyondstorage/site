@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[439],{2687:function(e){e.exports=JSON.parse('{"pluginId":"beyond-ftp","version":"current","label":"\u4e0b\u4e00\u9875","banner":null,"badge":false,"className":"docs-version-current","isLast":true,"docsSidebars":{"docs":[{"type":"link","label":"\u4ecb\u7ecd","href":"/zh-CN/docs/beyond-ftp/index"}]}}')}}]);

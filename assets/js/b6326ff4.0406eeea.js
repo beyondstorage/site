@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[8983],{9407:function(e){e.exports=JSON.parse('{"pluginId":"beyond-fs","version":"current","label":"Next","banner":null,"badge":false,"className":"docs-version-current","isLast":true,"docsSidebars":{"docs":[{"type":"link","label":"Introduction","href":"/docs/beyond-fs/index"}]}}')}}]);
